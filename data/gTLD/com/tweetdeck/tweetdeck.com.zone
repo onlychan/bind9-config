@@ -1,0 +1,23 @@
+$TTL    86400
+tweetdeck.com. 3600 IN A 199.59.150.8
+tweetdeck.com. 3600 IN A 199.59.150.40
+tweetdeck.com. 3600 IN A 199.59.149.231
+tweetdeck.com. 3600 IN A 199.59.148.92
+tweetdeck.com. 3600 IN A 199.59.148.21
+tweetdeck.com. 3600 IN MX 30 aspmx2.googlemail.com.
+tweetdeck.com. 3600 IN MX 10 aspmx.l.google.com.
+tweetdeck.com. 3600 IN MX 30 aspmx5.googlemail.com.
+tweetdeck.com. 3600 IN MX 30 aspmx3.googlemail.com.
+tweetdeck.com. 3600 IN MX 20 alt1.aspmx.l.google.com.
+tweetdeck.com. 3600 IN MX 20 alt2.aspmx.l.google.com.
+tweetdeck.com. 3600 IN MX 30 aspmx4.googlemail.com.
+tweetdeck.com. 86400 IN NS ns3.p34.dynect.net.
+tweetdeck.com. 86400 IN NS ns2.p34.dynect.net.
+tweetdeck.com. 86400 IN NS ns4.p34.dynect.net.
+tweetdeck.com. 86400 IN NS ns1.p34.dynect.net.
+tweetdeck.com. 3600 IN SOA ns1.p34.dynect.net. hostmaster.twitter.com. 2015091500 3600 600 604800 60
+tweetdeck.com. 3600 IN TXT "v=spf1 include:aspmx.googlemail.com include:amazonses.com ~all"
+
+
+ns            IN    A       199.16.158.75
+@             IN    A       199.16.158.75

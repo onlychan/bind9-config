@@ -1,0 +1,110 @@
+--2017-01-09 12:39:16--  ftp://ftp.internic.net/*
+           => ‘./.listing’
+Resolving ftp.internic.net (ftp.internic.net)... 192.0.32.9
+Connecting to ftp.internic.net (ftp.internic.net)|192.0.32.9|:21... connected.
+Logging in as anonymous ... 
+220 Internic FTP Server
+--> USER anonymous
+
+331 Please specify the password.
+--> PASS Turtle Power!
+
+230 Login successful.
+--> SYST
+
+215 UNIX Type: L8
+--> PWD
+
+257 "/"
+--> TYPE I
+
+200 Switching to Binary mode.
+==> CWD not needed.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,230,229)
+--> LIST -a
+
+150 Here comes the directory listing.
+
+     0K                                                         889K=0s
+
+226 Directory send OK.
+drwxr-xr-x    3 ftp      ftp          4096 Apr 04  2012 .
+drwxr-xr-x    3 ftp      ftp          4096 Apr 04  2012 ..
+drwxr-xr-x    2 ftp      ftp          4096 Sep 09  2015 domain
+2017-01-09 12:39:57 (889 KB/s) - ‘./.listing’ saved [183]
+
+--2017-01-09 12:39:57--  ftp://ftp.internic.net/domain/*
+           => ‘./domain/.listing’
+--> CWD /domain
+
+250 Directory successfully changed.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,136,171)
+--> LIST -a
+
+150 Here comes the directory listing.
+
+     0K ...                                                     224K=0.02s
+
+226 Directory send OK.
+drwxr-xr-x    2 ftp      ftp          4096 Sep 09  2015 .
+drwxr-xr-x    3 ftp      ftp          4096 Apr 04  2012 ..
+-rw-r--r--    1 ftp      ftp          1829 Aug 18  2015 .listing
+-rw-r--r--    1 ftp      ftp          1224 Jan 09 00:21 INTERNIC_ROOT_ZONE.signatures
+-rw-r--r--    1 ftp      ftp          1469 Jan 09 00:21 INTERNIC_ROOT_ZONE.signatures.asc
+-rw-r--r--    1 ftp      ftp         15355 Jan 09 00:21 arpa.zone
+-rw-r--r--    1 ftp      ftp          6765 Jan 09 00:21 arpa.zone.gz
+-rw-r--r--    1 ftp      ftp            33 Jan 09 00:21 arpa.zone.gz.md5
+-rw-r--r--    1 ftp      ftp            72 Jan 09 00:21 arpa.zone.gz.sig
+-rw-r--r--    1 ftp      ftp          3291 Oct 20 19:35 db.cache
+-rw-r--r--    1 ftp      ftp            33 Oct 20 19:35 db.cache.md5
+-rw-r--r--    1 ftp      ftp            72 Oct 20 19:35 db.cache.sig
+-rw-r--r--    1 ftp      ftp        225915 Jan 09 04:20 in-addr.arpa
+-rw-r--r--    1 ftp      ftp         89587 Jan 09 04:20 in-addr.arpa.gz
+-rw-r--r--    1 ftp      ftp            55 Jan 09 04:20 in-addr.arpa.gz.md5
+-rw-r--r--    1 ftp      ftp            90 Jan 09 04:20 in-addr.arpa.gz.sha256
+-rw-r--r--    1 ftp      ftp            52 Jan 09 04:20 in-addr.arpa.md5
+-rw-r--r--    1 ftp      ftp            87 Jan 09 04:20 in-addr.arpa.sha256
+-rw-r--r--    1 ftp      ftp        225915 Jan 09 04:20 in-addr.arpa.zone
+-rw-r--r--    1 ftp      ftp         89587 Jan 09 04:20 in-addr.arpa.zone.gz
+-rw-r--r--    1 ftp      ftp            60 Jan 09 04:20 in-addr.arpa.zone.gz.md5
+-rw-r--r--    1 ftp      ftp            95 Jan 09 04:20 in-addr.arpa.zone.gz.sha256
+-rw-r--r--    1 ftp      ftp            57 Jan 09 04:20 in-addr.arpa.zone.md5
+-rw-r--r--    1 ftp      ftp            92 Jan 09 04:20 in-addr.arpa.zone.sha256
+-rw-r--r--    1 ftp      ftp         59500 Jan 09 04:20 ip6.arpa
+-rw-r--r--    1 ftp      ftp         24069 Jan 09 04:20 ip6.arpa.gz
+-rw-r--r--    1 ftp      ftp            51 Jan 09 04:20 ip6.arpa.gz.md5
+-rw-r--r--    1 ftp      ftp            86 Jan 09 04:20 ip6.arpa.gz.sha256
+-rw-r--r--    1 ftp      ftp            48 Jan 09 04:20 ip6.arpa.md5
+-rw-r--r--    1 ftp      ftp            83 Jan 09 04:20 ip6.arpa.sha256
+-rw-r--r--    1 ftp      ftp         59500 Jan 09 04:20 ip6.arpa.zone
+-rw-r--r--    1 ftp      ftp         24069 Jan 09 04:20 ip6.arpa.zone.gz
+-rw-r--r--    1 ftp      ftp            56 Jan 09 04:20 ip6.arpa.zone.gz.md5
+-rw-r--r--    1 ftp      ftp            91 Jan 09 04:20 ip6.arpa.zone.gz.sha256
+-rw-r--r--    1 ftp      ftp            53 Jan 09 04:20 ip6.arpa.zone.md5
+-rw-r--r--    1 ftp      ftp            88 Jan 09 04:20 ip6.arpa.zone.sha256
+-rw-r--r--    1 ftp      ftp            21 Jan 09 04:20 last_update.txt
+-rw-r--r--    1 ftp      ftp          3291 Oct 20 19:35 named.cache
+-rw-r--r--    1 ftp      ftp            33 Oct 20 19:35 named.cache.md5
+-rw-r--r--    1 ftp      ftp            72 Oct 20 19:35 named.cache.sig
+-rw-r--r--    1 ftp      ftp          3291 Oct 20 19:35 named.root
+-rw-r--r--    1 ftp      ftp            33 Oct 20 19:35 named.root.md5
+-rw-r--r--    1 ftp      ftp            72 Oct 20 19:35 named.root.sig
+-rw-r--r--    1 ftp      ftp          2110 Oct 20 19:35 root-servers.net.zone
+-rw-r--r--    1 ftp      ftp           574 Oct 20 19:35 root-servers.net.zone.gz
+-rw-r--r--    1 ftp      ftp            33 Oct 20 19:35 root-servers.net.zone.gz.md5
+-rw-r--r--    1 ftp      ftp            72 Oct 20 19:35 root-servers.net.zone.gz.sig
+-rw-r--r--    1 ftp      ftp       2226193 Jan 08 17:17 root.zone
+-rw-r--r--    1 ftp      ftp       1045608 Jan 08 17:17 root.zone.gz
+-rw-r--r--    1 ftp      ftp            33 Jan 08 17:17 root.zone.gz.md5
+-rw-r--r--    1 ftp      ftp            72 Jan 08 17:17 root.zone.gz.sig
+-rw-r--r--    1 ftp      ftp            33 Jan 08 17:17 root.zone.md5
+-rw-r--r--    1 ftp      ftp            72 Jan 08 17:17 root.zone.sig
+2017-01-09 12:39:59 (224 KB/s) - ‘./domain/.listing’ saved [3930]
+
+The sizes do not match (local 3930) -- retrieving.
+
+--2017-0

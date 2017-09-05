@@ -1,0 +1,26 @@
+--2017-06-22 00:00:02--  ftp://ftp.internic.net/*
+           => ‘./.listing’
+Resolving ftp.internic.net (ftp.internic.net)... 192.0.32.9, 2620:0:2d0:200::9
+Connecting to ftp.internic.net (ftp.internic.net)|192.0.32.9|:21... connected.
+Logging in as anonymous ... 
+220 Internic FTP Server
+--> USER anonymous
+
+331 Please specify the password.
+--> PASS Turtle Power!
+
+230 Login successful.
+--> SYST
+
+215 UNIX Type: L8
+--> PWD
+
+257 "/"
+--> TYPE I
+
+200 Switching to Binary mode.
+==> CWD not needed.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,238,36)
+couldn't connect to 192.0.32.9 port 60964: Connection refused

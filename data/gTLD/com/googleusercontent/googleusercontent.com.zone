@@ -1,0 +1,13 @@
+$TTL    86400
+googleusercontent.com. 60 IN SOA ns4.google.com. dns-admin.google.com. 144654451 900 900 1800 60
+googleusercontent.com. 345600 IN NS ns4.google.com.
+googleusercontent.com. 345600 IN NS ns2.google.com.
+googleusercontent.com. 345600 IN NS ns1.google.com.
+googleusercontent.com. 345600 IN NS ns3.google.com.
+googleusercontent.com. 86400 IN CAA 0 issue "symantec.com"
+googleusercontent.com. 3600 IN TXT "v=spf1 include:_spf.google.com ?all"
+
+@                                      IN    A       64.233.162.84
+@                                      IN    AAAA    2404:6800:4008:c02::11
+*                                      IN    CNAME   cname.google.com.
+

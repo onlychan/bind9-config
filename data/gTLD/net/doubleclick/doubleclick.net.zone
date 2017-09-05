@@ -1,0 +1,24 @@
+$TTL    86400
+doubleclick.net. 300 IN A 74.125.196.102
+doubleclick.net. 300 IN A 74.125.196.113
+doubleclick.net. 300 IN A 74.125.196.138
+doubleclick.net. 300 IN A 74.125.196.139
+doubleclick.net. 300 IN A 74.125.196.101
+doubleclick.net. 300 IN A 74.125.196.100
+doubleclick.net. 300 IN AAAA 2607:f8b0:4002:c07::65
+doubleclick.net. 300 IN TXT "v=spf1 mx ?all"
+doubleclick.net. 300 IN TXT "google-site-verification:bqEukzgde2Z8kr2wk5OKZNrYrefPAHaoLYBFsi1ShK8"
+doubleclick.net. 300 IN TXT "spf2.0/pra ?all"
+doubleclick.net. 345600 IN NS ns4.google.com.
+doubleclick.net. 345600 IN NS ns1.google.com.
+doubleclick.net. 345600 IN NS ns2.google.com.
+doubleclick.net. 345600 IN NS ns3.google.com.
+doubleclick.net. 600 IN MX 50 alt4.aspmx.l.google.com.
+doubleclick.net. 600 IN MX 10 aspmx.l.google.com.
+doubleclick.net. 600 IN MX 20 alt1.aspmx.l.google.com.
+doubleclick.net. 600 IN MX 30 alt2.aspmx.l.google.com.
+doubleclick.net. 60 IN SOA ns4.google.com. dns-admin.google.com. 144663733 900 900 1800 60
+	
+@                        IN    A       64.233.162.84
+@                        IN    AAAA    2404:6800:4008:c02::11
+*                        IN    CNAME   cname.google.com.

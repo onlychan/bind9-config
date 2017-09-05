@@ -1,0 +1,6 @@
+$TTL    86400
+sfx.ms. 900 IN NS ns1.msft.net.
+sfx.ms. 900 IN NS ns2.msft.net.
+sfx.ms. 900 IN SOA ns1.msft.net. msnhst.microsoft.com. 2015120901 7200 900 2419200 3600
+
+p                                 IN    A       23.212.129.202

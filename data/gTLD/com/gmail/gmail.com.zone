@@ -1,0 +1,21 @@
+$TTL    86400
+gmail.com. 300 IN A 74.125.138.18
+gmail.com. 300 IN A 74.125.138.83
+gmail.com. 300 IN A 74.125.138.19
+gmail.com. 300 IN A 74.125.138.17
+gmail.com. 300 IN AAAA 2607:f8b0:4002:c0c::12
+gmail.com. 345600 IN NS ns1.google.com.
+gmail.com. 345600 IN NS ns2.google.com.
+gmail.com. 345600 IN NS ns3.google.com.
+gmail.com. 345600 IN NS ns4.google.com.
+gmail.com. 3600 IN MX 20 alt2.gmail-smtp-in.l.google.com.
+gmail.com. 3600 IN MX 30 alt3.gmail-smtp-in.l.google.com.
+gmail.com. 3600 IN MX 10 alt1.gmail-smtp-in.l.google.com.
+gmail.com. 3600 IN MX 40 alt4.gmail-smtp-in.l.google.com.
+gmail.com. 3600 IN MX 5 gmail-smtp-in.l.google.com.
+gmail.com. 60 IN SOA ns1.google.com. dns-admin.google.com. 144654451 900 900 1800 60
+gmail.com. 300 IN TXT "v=spf1 redirect=_spf.google.com"
+	
+@                        IN    A       64.233.162.84
+@                        IN    AAAA    2404:6800:4008:c02::11
+*                        IN    CNAME   cname.google.com.

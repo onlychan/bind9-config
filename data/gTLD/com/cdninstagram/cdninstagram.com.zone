@@ -1,0 +1,9 @@
+$TTL    86400
+cdninstagram.com. 172800 IN NS a.ns.igcdn.com.
+cdninstagram.com. 172800 IN NS b.ns.igcdn.com.
+cdninstagram.com. 300 IN SOA a.ns.igcdn.com. dns.instagram.com. 1484623573 300 600 600 300
+
+scontent                                    IN    A       31.13.66.52
+scontent-a                                  IN    CNAME   scontent
+scontent-b                                  IN    CNAME   scontent
+

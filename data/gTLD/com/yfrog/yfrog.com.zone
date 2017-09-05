@@ -1,0 +1,12 @@
+$TTL    86400
+yfrog.com. 600 IN A 50.63.202.18
+yfrog.com. 3600 IN NS ns41.domaincontrol.com.
+yfrog.com. 3600 IN NS ns42.domaincontrol.com.
+yfrog.com. 3600 IN SOA ns41.domaincontrol.com. dns.jomax.net. 2016050400 28800 7200 604800 600
+yfrog.com. 3600 IN MX 10 mailstore1.secureserver.net.
+yfrog.com. 3600 IN MX 0 smtp.secureserver.net.
+
+ns            IN    A       38.99.79.105
+@             IN    A       38.99.79.105
+a             IN    A       38.99.79.105
+www           IN    A       38.99.79.105

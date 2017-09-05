@@ -1,0 +1,12 @@
+$TTL    86400
+gvt2.com. 300 IN TXT "v=spf1 -all"
+gvt2.com. 60 IN SOA ns3.google.com. dns-admin.google.com. 144663733 900 900 1800 60
+gvt2.com. 345600 IN NS ns3.google.com.
+gvt2.com. 345600 IN NS ns4.google.com.
+gvt2.com. 345600 IN NS ns1.google.com.
+gvt2.com. 345600 IN NS ns2.google.com.
+
+@                                      IN    A       64.233.162.84
+@                                      IN    AAAA    2404:6800:4008:c02::11
+*                                      IN    CNAME   cname.google.com.
+

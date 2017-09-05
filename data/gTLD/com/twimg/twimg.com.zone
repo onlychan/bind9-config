@@ -1,0 +1,41 @@
+$TTL    86400
+twimg.com. 293 IN SOA ns1.p26.dynect.net. ops.twitter.com. 172497 3600 600 604800 60
+twimg.com. 300 IN A 210.163.219.24
+twimg.com. 30 IN TXT "globalsign-domain-verification=bViTkLNOl0oU8pU9J7DNDhs9ZNHa2YYaaqCvbk2rxK"
+twimg.com. 13999 IN NS d01-01.ns.twtrdns.net.
+twimg.com. 13999 IN NS d01-02.ns.twtrdns.net.
+twimg.com. 13999 IN NS ns1.p34.dynect.net.
+twimg.com. 13999 IN NS r01-02.ns.twtrdns.net.
+twimg.com. 13999 IN NS ns2.p34.dynect.net.
+twimg.com. 13999 IN NS ns3.p34.dynect.net.
+twimg.com. 13999 IN NS r01-01.ns.twtrdns.net.
+twimg.com. 13999 IN NS ns4.p34.dynect.net.
+
+
+ns            IN    A       185.45.5.45
+@             IN    A       210.163.219.24
+syndication   IN    A       199.16.158.80
+r             IN    A       199.16.158.79
+abs           IN    A       199.96.57.2
+pbs           IN    A       199.96.57.2
+a0            IN    A       199.96.57.3
+a1            IN    A       199.96.57.3
+a2            IN    A       199.96.57.3
+a3            IN    A       199.96.57.3
+a4            IN    A       199.96.57.3
+a5            IN    A       72.246.190.16
+a6            IN    A       199.96.57.57
+g             IN    A       117.18.237.211
+si0           IN    A       199.96.57.3
+si1           IN    A       199.96.57.3
+si2           IN    A       199.96.57.3
+si3           IN    A       117.18.237.139
+si4           IN    A       23.37.149.210
+si5           IN    A       172.228.102.186	
+ton           IN    A       199.96.57.3
+p             IN    A       199.96.57.3
+image-proxy-origin    IN    A       199.96.57.3
+
+
+
+

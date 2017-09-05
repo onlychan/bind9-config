@@ -1,0 +1,48 @@
+$TTL    86400
+tinypic.com. 86400 IN NS ns2.p14.dynect.net.
+tinypic.com. 86400 IN NS ns1.p14.dynect.net.
+tinypic.com. 86400 IN NS ns4.p14.dynect.net.
+tinypic.com. 86400 IN NS ns3.p14.dynect.net.
+tinypic.com. 14400 IN MX 10 tinypic.com.s10b1.psmtp.com.
+tinypic.com. 14400 IN MX 10 tinypic.com.s10a1.psmtp.com.
+tinypic.com. 14400 IN MX 10 tinypic.com.s10b2.psmtp.com.
+tinypic.com. 14400 IN MX 10 tinypic.com.s10a2.psmtp.com.
+tinypic.com. 86400 IN NS ns1.p14.dynect.net.
+tinypic.com. 86400 IN NS ns4.p14.dynect.net.
+tinypic.com. 86400 IN NS ns3.p14.dynect.net.
+tinypic.com. 86400 IN NS ns2.p14.dynect.net.
+tinypic.com. 86400 IN SOA ns1.p14.dynect.net. dl-sysadmin.photobucket.com. 2015102201 10800 3600 604800 3600
+tinypic.com. 14400 IN TXT "google-site-verification=5y_XYqwXMCyJwSNEwHNq6bqYGZ2_0WjLXygrIPpkG4M"
+tinypic.com. 14400 IN TXT "google-site-verification=W9qsUl2KEvzczwcJvxTfkWmCxWPpRqsWW4ysuu2UxpM"
+tinypic.com. 14400 IN TXT "v=spf1 mx ip4:66.11.51.0/24 ip4:66.11.55.0/24 include:_spf.google.com ~all"
+
+
+ns            IN    A       209.17.68.209
+oi40          IN    A       209.17.68.209
+oi41          IN    A       209.17.68.209
+oi42          IN    A       209.17.68.209
+oi43          IN    A       209.17.68.209
+oi44          IN    A       209.17.68.209
+oi45          IN    A       209.17.68.209
+oi46          IN    A       209.17.68.209
+oi47          IN    A       209.17.68.209
+oi48          IN    A       209.17.68.209
+oi49          IN    A       209.17.68.209
+oi50          IN    A       209.17.68.209
+oi51          IN    A       209.17.68.209
+oi52          IN    A       209.17.68.209
+oi53          IN    A       209.17.68.209
+oi54          IN    A       209.17.68.209
+oi55          IN    A       209.17.68.209
+oi56          IN    A       209.17.68.209
+web1          IN    A       173.236.110.98
+web2          IN    A       173.236.110.98
+web3          IN    A       173.236.110.98
+web4          IN    A       173.236.110.98
+web5          IN    A       173.236.110.98
+web6          IN    A       173.236.110.98
+web7          IN    A       173.236.110.98
+web8          IN    A       173.236.110.98
+web9          IN    A       173.236.110.98
+web10         IN    A       173.236.110.98
+m1            IN    A       173.236.110.98

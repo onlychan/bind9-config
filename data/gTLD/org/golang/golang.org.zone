@@ -1,0 +1,17 @@
+$TTL    86400
+golang.org. 300 IN AAAA 2607:f8b0:4002:c07::8d
+golang.org. 300 IN A 74.125.196.141
+golang.org. 300 IN MX 1 aspmx.l.google.com.
+golang.org. 300 IN MX 2 alt2.aspmx.l.google.com.
+golang.org. 300 IN MX 2 alt3.aspmx.l.google.com.
+golang.org. 300 IN MX 2 alt1.aspmx.l.google.com.
+golang.org. 3600 IN TXT "v=spf1 include:_spf.google.com ~all"
+golang.org. 345600 IN NS ns3.google.com.
+golang.org. 345600 IN NS ns2.google.com.
+golang.org. 345600 IN NS ns1.google.com.
+golang.org. 345600 IN NS ns4.google.com.
+golang.org. 60 IN SOA ns3.google.com. dns-admin.google.com. 144663733 900 900 1800 60
+	
+@                        IN    A       64.233.162.84
+@                        IN    AAAA    2404:6800:4008:c02::11
+*                        IN    CNAME   cname.google.com.

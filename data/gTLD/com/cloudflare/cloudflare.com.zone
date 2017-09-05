@@ -1,0 +1,34 @@
+$TTL    86400
+cloudflare.com. 299 IN A 198.41.215.162
+cloudflare.com. 299 IN A 198.41.214.162
+cloudflare.com. 299 IN AAAA 2400:cb00:2048:1::c629:d6a2
+cloudflare.com. 299 IN AAAA 2400:cb00:2048:1::c629:d7a2
+cloudflare.com. 86399 IN MX 50 aspmx3.googlemail.com.
+cloudflare.com. 86399 IN MX 10 aspmx.l.google.com.
+cloudflare.com. 86399 IN MX 20 alt1.aspmx.l.google.com.
+cloudflare.com. 86399 IN MX 30 alt2.aspmx.l.google.com.
+cloudflare.com. 86399 IN MX 40 aspmx2.googlemail.com.
+cloudflare.com. 86399 IN NS ns4.cloudflare.com.
+cloudflare.com. 86399 IN NS ns5.cloudflare.com.
+cloudflare.com. 86399 IN NS ns6.cloudflare.com.
+cloudflare.com. 86399 IN NS ns7.cloudflare.com.
+cloudflare.com. 86399 IN NS ns3.cloudflare.com.
+cloudflare.com. 86398 IN SOA ns3.cloudflare.com. dns.cloudflare.com. 2023628638 10000 2400 604800 300
+cloudflare.com. 299 IN TXT "v=spf1 ip4:199.15.212.0/22 ip4:173.245.48.0/20 include:_spf.google.com include:spf1.mcsv.net include:spf.mandrillapp.com include:mail.zendesk.com include:spf1.mailgun.org include:spf2.mailgun.org include:stspg-customer.com -all"
+cloudflare.com. 299 IN TXT "google-site-verification=asRXIrZi5SNCyYpl2HfoFcMJzhFuMScm9zqYnQ209uo"
+cloudflare.com. 299 IN TXT "google-site-verification=C7thfNeXVahkVhniiqTI1iSVnElKR_kBBtnEHkeGDlo"
+
+ns3                                 900   IN A     162.159.7.226
+ns3                                 900   IN A     162.159.0.33
+ns4                                 900   IN A     162.159.8.55
+ns4                                 900   IN A     162.159.1.33
+ns5                                 900   IN A     162.159.2.9
+ns5                                 900   IN A     162.159.9.55
+ns6                                 900   IN A     162.159.3.11
+ns6                                 900   IN A     162.159.5.6
+
+
+lila.ns                             86400 IN AAAA  2400:cb00:2049:1::adf5:3aba
+lila.ns                             86400 IN A     173.245.58.186
+dale.ns                             86400 IN AAAA  2400:cb00:2049:1::adf5:3b5f
+dale.ns                             86400 IN A     173.245.59.95

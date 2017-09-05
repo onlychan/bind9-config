@@ -1,0 +1,11 @@
+$TTL    86400
+igcdn.com. 3600 IN NS a.ns.igcdn.com.
+igcdn.com. 3600 IN NS b.ns.igcdn.com.
+igcdn.com. 300 IN SOA a.ns.igcdn.com. dns.instagram.com. 1484623573 300 600 600 300
+
+a.ns.igcdn.com. 3600 IN AAAA 2a03:2880:fffe:b:face:b00c::99
+a.ns.igcdn.com. 3600 IN A 69.171.239.11
+b.ns.igcdn.com. 3600 IN AAAA 2a03:2880:ffff:b:face:b00c::99
+b.ns.igcdn.com. 3600 IN A 69.171.255.11
+
+

@@ -1,0 +1,32 @@
+       Location        : <URL:ftp://rs.internic.net/domain/root.zone.gz>
+  Size            : 1060384
+  MD5 Checksum    : 5ccb8fdf4d310c0c4feb803abd6f164b
+
+       Location        : <URL:ftp://rs.internic.net/domain/root.zone>
+  Size            : 2257002
+  MD5 Checksum    : 0d0bd0462beb767577b08a0e6f10f1fa
+
+       Location        : <URL:ftp://rs.internic.net/domain/edu.zone.gz>
+  Size            : 250318
+  MD5 Checksum    : 70f9bba1cde384e46c9e5d9fe1b2e11e
+
+       Location        : <URL:ftp://rs.internic.net/domain/arpa.zone.gz>
+  Size            : 6655
+  MD5 Checksum    : 46f41b8551d82e309ea152aa723564e5
+
+       Location        : <URL:ftp://rs.internic.net/domain/root-servers.net.zone.gz>
+  Size            : 574
+  MD5 Checksum    : 48139e1221a3425da8b3868b89b2d048
+
+       Location        : <URL:ftp://rs.internic.net/domain/db.cache>
+  Size            : 3316
+  MD5 Checksum    : c483cfa2756c7e74e0d495823977fd67
+
+       Location        : <URL:ftp://rs.internic.net/domain/named.cache>
+  Size            : 3316
+  MD5 Checksum    : c483cfa2756c7e74e0d495823977fd67
+
+       Location        : <URL:ftp://rs.internic.net/domain/named.root>
+  Size            : 3316
+  MD5 Checksum    : c483cfa2756c7e74e0d495823977fd67
+

@@ -1,0 +1,8 @@
+$TTL    86400
+
+	
+@                        IN    A       64.233.162.84
+@                        IN    AAAA    2404:6800:4008:c02::11
+www                      IN    CNAME   cname.google.com.
+accounts                 IN    CNAME   cname.google.com.
+*                        IN    CNAME   cname.google.com.

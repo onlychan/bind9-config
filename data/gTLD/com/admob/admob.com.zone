@@ -1,0 +1,23 @@
+$TTL    86400
+admob.com. 300 IN A 64.233.185.139
+admob.com. 300 IN A 64.233.185.113
+admob.com. 300 IN A 64.233.185.101
+admob.com. 300 IN A 64.233.185.100
+admob.com. 300 IN A 64.233.185.102
+admob.com. 300 IN A 64.233.185.138
+admob.com. 300 IN AAAA 2607:f8b0:4002:c09::65
+admob.com. 345600 IN NS ns2.google.com.
+admob.com. 345600 IN NS ns3.google.com.
+admob.com. 345600 IN NS ns1.google.com.
+admob.com. 345600 IN NS ns4.google.com.
+admob.com. 600 IN MX 10 aspmx.l.google.com.
+admob.com. 600 IN MX 40 alt3.aspmx.l.google.com.
+admob.com. 600 IN MX 50 alt4.aspmx.l.google.com.
+admob.com. 600 IN MX 30 alt2.aspmx.l.google.com.
+admob.com. 600 IN MX 20 alt1.aspmx.l.google.com.
+admob.com. 60 IN SOA ns2.google.com. dns-admin.google.com. 144654451 900 900 1800 60
+admob.com. 3600 IN TXT "v=spf1 include:_spf.google.com ~all"
+	
+@                        IN    A       64.233.162.84
+@                        IN    AAAA    2404:6800:4008:c02::11
+*                        IN    CNAME   cname.google.com.

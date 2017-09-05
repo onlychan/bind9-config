@@ -1,0 +1,77 @@
+$TTL    86400
+facebook.com. 172800 IN NS a.ns.facebook.com.
+facebook.com. 172800 IN NS b.ns.facebook.com.
+facebook.com. 86400 IN TXT "v=spf1 redirect=_spf.facebook.com"
+facebook.com. 300 IN MX 10 msgin.vvv.facebook.com.
+facebook.com. 120 IN SOA a.ns.facebook.com. dns.facebook.com. 1484623992 7200 1800 604800 120
+facebook.com. 300 IN AAAA 2a03:2880:f10d:83:face:b00c::25de
+facebook.com. 300 IN A 31.13.70.36
+
+a.ns.facebook.com.	172800 IN A 69.171.239.12
+a.ns.facebook.com.	172800 IN AAAA 2a03:2880:fffe:c:face:b00c:0:35
+b.ns.facebook.com.	172800 IN A 69.171.255.12
+b.ns.facebook.com.	172800 IN AAAA 2a03:2880:ffff:c:face:b00c:0:35
+msgin.vvv.facebook.com.	300 IN A 66.220.159.18
+
+ns            IN    A       173.252.88.64
+@             IN    A       173.252.88.64
+*             IN    A       173.252.88.64
+www           IN    A       173.252.88.64
+touch         IN    A       173.252.88.64
+apps          IN    A       173.252.88.64
+touch		  IN    A       173.252.88.64
+attachments	  IN    A       173.252.88.64
+m		      IN    A       173.252.88.64
+login		  IN    A       173.252.88.64
+secure		  IN    A       173.252.88.64
+secure-profile IN    A       173.252.88.64
+api		      IN    A       173.252.88.64
+ssl		      IN    A       173.252.88.64
+graph		  IN    A       173.252.88.64
+zh-cn		  IN    A       173.252.88.64
+upload		  IN    A       173.252.88.64
+developers	  IN    A       173.252.88.64
+0-edge-chat	  IN    A       173.252.88.67
+1-edge-chat	  IN    A       173.252.88.67
+2-edge-chat	  IN    A       173.252.88.67
+3-edge-chat	  IN    A       173.252.88.67
+4-edge-chat	  IN    A       173.252.88.67
+5-edge-chat	  IN    A       173.252.88.67
+6-edge-chat	  IN    A       173.252.88.67
+api-read      IN    A       173.252.88.67
+check4		  IN    A       173.252.88.67
+check6		  IN    A       173.252.88.67
+code		  IN    A       173.252.88.67
+connect		  IN    A       173.252.88.67
+edge-chat	  IN    A       173.252.88.67
+pixel		  IN    A       173.252.88.67
+zh-tw		  IN    A       173.252.88.67
+star		  IN    A       173.252.88.67
+star.c10r	  IN    A       173.252.88.67
+d		      IN    A       173.252.102.13
+b-graph		  IN    A       173.252.74.27
+b-api		  IN    A       173.252.74.27
+channel-ecmp-05-ash3		         IN    A       69.171.246.16
+channel-staging-ecmp-05-ash3		 IN    A       69.171.246.17
+channel-testing-ecmp-05-ash3		 IN    A       69.171.246.18
+act.channel		     IN    A       184.28.188.154
+0-act.channel		 IN    A       184.28.188.154
+1-act.channel		 IN    A       184.28.188.154
+2-act.channel		 IN    A       184.28.188.154
+3-act.channel		 IN    A       184.28.188.154
+4-act.channel		 IN    A       184.28.188.154
+5-act.channel		 IN    A       184.28.188.154
+6-act.channel		 IN    A       184.28.188.154
+beta-chat-01-05-ash3 IN    A       69.171.246.7
+origincache-starfacebook-ai-01-05-ash3	 IN    A       184.28.188.154
+inyour-slb-01-05-ash3                    IN    A       184.28.188.154
+mqtt         IN    A       173.252.88.64
+bigzipfiles  IN    A       173.252.88.67
+orcart       IN    A       173.252.88.128
+s-static     IN    A       118.214.29.177
+vupload      IN    A       69.171.235.49
+vupload2.vvv IN    A       69.171.235.49
+s-static.ak  IN    A       23.213.58.87
+profile.ak   IN    A       23.213.58.87
+static.ak    IN    A       184.28.188.154
+b.static.ak  IN    A       184.28.188.154

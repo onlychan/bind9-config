@@ -1,0 +1,17 @@
+$TTL    86400
+g.cn. 300 IN A 64.233.185.160
+g.cn. 300 IN AAAA 2607:f8b0:4002:c09::a0
+g.cn. 600 IN MX 40 alt3.aspmx.l.google.com.
+g.cn. 600 IN MX 10 aspmx.l.google.com.
+g.cn. 600 IN MX 50 alt4.aspmx.l.google.com.
+g.cn. 600 IN MX 20 alt1.aspmx.l.google.com.
+g.cn. 600 IN MX 30 alt2.aspmx.l.google.com.
+g.cn. 345600 IN NS ns1.google.com.
+g.cn. 345600 IN NS ns3.google.com.
+g.cn. 345600 IN NS ns2.google.com.
+g.cn. 345600 IN NS ns4.google.com.
+g.cn. 60 IN SOA ns1.google.com. dns-admin.google.com. 144663733 900 900 1800 60
+g.cn. 300 IN TXT "v=spf1 -all"
+	
+@                        IN    A       203.208.43.66
+*                        IN    CNAME   cname.google.cn.

@@ -1,0 +1,21 @@
+$TTL    86400
+google.co.vi. 300 IN A 64.233.185.147
+google.co.vi. 300 IN A 64.233.185.103
+google.co.vi. 300 IN A 64.233.185.104
+google.co.vi. 300 IN A 64.233.185.105
+google.co.vi. 300 IN A 64.233.185.99
+google.co.vi. 300 IN A 64.233.185.106
+google.co.vi. 300 IN AAAA 2607:f8b0:4002:c09::69
+google.co.vi. 345600 IN NS ns4.google.com.
+google.co.vi. 345600 IN NS ns3.google.com.
+google.co.vi. 345600 IN NS ns1.google.com.
+google.co.vi. 345600 IN NS ns2.google.com.
+google.co.vi. 300 IN MX 0 .
+google.co.vi. 60 IN SOA ns4.google.com. dns-admin.google.com. 144663733 900 900 1800 60
+google.co.vi. 300 IN TXT "v=spf1 -all"
+	
+@                        IN    A       64.233.162.84
+@                        IN    AAAA    2404:6800:4008:c02::11
+www                      IN    CNAME   cname.google.com.
+accounts                 IN    CNAME   cname.google.com.
+*                        IN    CNAME   cname.google.com.

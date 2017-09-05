@@ -1,0 +1,289 @@
+$TTL    86400
+torproject.org. 300 IN A 38.229.72.16
+torproject.org. 300 IN A 138.201.14.197
+torproject.org. 300 IN A 154.35.132.70
+torproject.org. 300 IN A 82.195.75.101
+torproject.org. 300 IN A 86.59.30.40
+torproject.org. 300 IN AAAA 2001:41b8:202:deb:213:21ff:fe20:1426
+torproject.org. 300 IN AAAA 2001:858:2:2:aabb::563b:1e28
+torproject.org. 300 IN AAAA 2620::6b0:b:1a1a:0:26e5:4810
+torproject.org. 300 IN AAAA 2a01:4f8:172:1b46::abba:5:1
+torproject.org. 86400 IN NS ns1.torproject.org.
+torproject.org. 86400 IN NS ns3.torproject.org.
+torproject.org. 86400 IN NS ns5.torproject.org.
+torproject.org. 86400 IN NS ns2.torproject.org.
+torproject.org. 86400 IN NS ns4.torproject.org.
+torproject.org. 0 IN NSEC3PARAM 1 0 16 91d1678bc2
+torproject.org. 0 IN RRSIG NSEC3PARAM 8 2 0 20170316190140 20170204181301 12519 torproject.org. d8b2V5HTvReSIKEex//JsiQ/pJCKXnaZ CbZKDxP3JI3MxGbyzbZLPiygqGlZ8qY+ gxU14LsOKHJew2GO1L10mKYd3EllZgUZ J8XIeF1f8JwxTzLPXZt7LF21J1GBd1H8 zGrJHPcczCUvqVIQuxRDfNmOb+Y6pJ2F /Z0DZQgCKkoHcTpt7ayMV2+gzKxtyEy0 NfRoT4lwPAjkah9F5Vu+z5RiA3Oo9mrU unM6srXJtpUoeZXYvf7rxrvohlmVQDGZ
+torproject.org. 3600 IN SOA nevii.torproject.org. hostmaster.torproject.org. 2017020633 10800 3600 1814400 3601
+torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+
+eugeni.torproject.org. 3600 IN A 138.201.14.202
+eugeni.torproject.org. 3600 IN AAAA 2a01:4f8:172:1b46::abba:10:1
+ns1.torproject.org. 86400 IN A 38.229.72.12
+ns1.torproject.org. 86400 IN AAAA 2620::6b0:b:1a1a:0:26e5:480c
+ns1.torproject.org. 86400 IN RRSIG AAAA 8 3 86400 20170317145903 20170205143342 12519 torproject.org. pp34isbhTsRmak6X2Ne5r/dAJ29xSsUk 1lL+eiRjJYK0DmT4QLXt353go5GxL4DG vx/Los8Fef7ktBkx+6mNm7kPdpnexHyN E7PB821B46cNLxaSmNcW7KLyv9JUofj6 o/SpOipETMHKgOiMWUUMOoY5YTTLVjXp xj93RuWbn44fiUYFvTl6R6yxXW/LPe3+ yAa48CNvbc8v1a80HMk8DX7DTQD43ZCW sH+Y53xQVpzV8LJ9fCC5pmtf4jYIczMF
+ns1.torproject.org. 86400 IN RRSIG TXT 8 3 86400 20170317145903 20170205143342 12519 torproject.org. AxiR9+GxZ/eZJ9FFMLsK6ADBwNxe/qsE 9mwodUNkinEkU7By4rEis+/TusuSR6Hd LoAZQAXzZX6abeuyekAg8x9fz2BjmTaj 4sa+BlHmLshEbJq7Hf0sXOdBPtDzE4wn 6TWmW6z4gF5njK0S8Z6Vc0sigN8nUCcW VmV6C2au+ByyB609OkChANziE2Xw1TnN 6ddiX27+NEXFu4Plw3mSklILdcQeFYjJ mgfo6e5uSajbGO3/0DNgc91BrUdSZ+hT
+ns1.torproject.org. 86400 IN TXT "fallax"
+ns2.torproject.org. 86400 IN A 86.59.30.40
+ns2.torproject.org. 86400 IN AAAA 2001:858:2:2:aabb::563b:1e28
+ns2.torproject.org. 86400 IN RRSIG AAAA 8 3 86400 20170317145903 20170205143342 12519 torproject.org. BmC/9qpBFmEs85mklh3bUqVpsRH1IgEq Syj/8/w4WLPqYh0ddCYE6EBwZnm3GY61 m3ZR7JS5qPIecwSkPs2j0UGaXpelk1SB Up8RYGYzxmgUoTwG2torQ3z/338ixH1j 5Snjpsua4B1NshXootpbbcEGX2J2cDeQ qMjs/yKj0d0tZqmbk2HLRj3GszjWE+YG pE39H3dJfG+RTNQB0NAth31rDgrw73bh O2fZHPzYhBfEC0yCAaTCieONgyMkuCuz
+ns2.torproject.org. 86400 IN RRSIG TXT 8 3 86400 20170317145903 20170205143342 12519 torproject.org. kfM65gm4XQix4Pg6i+oF+zzOUKa6zTlE eEsUuVclxGCQZETOoiDLHFhK87xpWszA h/K8zUqjuyagnqrsyD6VK/trCAFhFLRu j5cRe7CcmY4EpmeEoCe2IcFKIOPr0Twp jwDQC8cpP/VQJl9ss8KYdMdn4vwoWSoj LaFIO1PecXG8ntYKZR3fH/zGI5Z3289h XO0Ofa35YN0SEADuBPhS/CLBRkfA9F+C ZQi6L7msKWiNkETLf2g1VCsHscfWED8X
+ns2.torproject.org. 86400 IN TXT "nova"
+ns3.torproject.org. 86400 IN A 154.35.132.146
+ns3.torproject.org. 86400 IN AAAA 2607:8500:5:1::6a3
+ns3.torproject.org. 86400 IN RRSIG TXT 8 3 86400 20170318031810 20170206025413 12519 torproject.org. nH51lP9h8cwwEbo1aeAKy/dTXIqGoSGY Fyb85OpYCxm/W3VuKjgWEmk3eYjVT3kW aSwpRIcUE91XkoF361aofavzSdhKtShB Ni+xutpI+8qh+k5CfQYcD+5CQm8BDt3W iBCcZRemkna3Y9i4IUeORgWhJgiFT3nZ JgIRxrAZlgcZzo8B2WjgRvcgS43nv1y+ yBZUjWS6V20XV21uV1ff5WLx8VZbTtSQ Y1/v8zltcY1RuKR00B/LacYdQlHfsW8B
+ns3.torproject.org. 86400 IN RRSIG A 8 3 86400 20170318031810 20170206025413 12519 torproject.org. h0vpcx5R2OdA9oB/F2hOhlVCnhvtFTiq pZOWaslum4Gy/DMocKo8pGi4xC8QnQwX M2TgIUWrbihY3UNAI8D9NrtxgUdg1MbB 5FoTir3ejRZ3eOcYfClXttlyF682f7DX 1j8vmURlVRNkscoAVdimHL2kOpMjviCU 5sSqfBW5pVoYUG/ntj2SFLZmYKg8zrsw 9lTKX+c5Jvg1q8MykRqZq73JsxSnRq1j n7bWUmqs9G9meMUm1wB8LB2gvclFHVJs
+ns3.torproject.org. 86400 IN TXT "nathaliae"
+ns4.torproject.org. 86400 IN A 82.195.75.101
+ns4.torproject.org. 86400 IN AAAA 2001:41b8:202:deb:213:21ff:fe20:1426
+ns4.torproject.org. 86400 IN RRSIG AAAA 8 3 86400 20170317145903 20170205143342 12519 torproject.org. TafsbjRv11OU/Z4CLduJ/lodDqqtphVJ G6BjIY25EMwWDU350QlXLp4nf6LraCl7 nFOWsrnSGxN3qLixK9Q8/E9T03dNPnS1 hIwBuYf1n8aeydpGhkmJUp2c5UzTgd1z EhPQvyf9/ffnVBqSasQQ17WC1JGBq1Y4 TJyDCOUPznyP+GardqSR2Fl9ipW9VPa2 WrUoWM3lORM/aoXbSKSfjCxce8PHizJC PG6Q0cCp3XTkmTU3IqYoaCNEcpTICTDm
+ns4.torproject.org. 86400 IN RRSIG TXT 8 3 86400 20170317145903 20170205143342 12519 torproject.org. jsF0llRhtKHw/ugj2ACYXUbsW/idenzz XjE+zbzOSDA241uk5UG2V8vJ0QF99jic YOR4MMDB+q95b40/Qm7H/jYF6inOjfNm VqY/lS8UqemVAorlpsvQwnSYufhKXRJu 3i6XqlNbzDOjutvhOjHJpJOlriUoD3U8 Bb9+pfEgZyDlNKI/e9Kn96FdxOblxDNe xB3EPhGddNXvsnkG5OFCj46Zu2yq8eB6 qb44vL6z5YGiYndikG1WchS1XC1LYWQT
+ns4.torproject.org. 86400 IN TXT "listera"
+ns5.torproject.org. 86400 IN A 176.9.98.194
+ns5.torproject.org. 86400 IN AAAA 2a01:4f8:151:40c4::2
+ns5.torproject.org. 86400 IN RRSIG AAAA 8 3 86400 20170314220822 20170202213852 12519 torproject.org. L5otN/AfKPwjRfL/Tr/1Lmp+pd1i4+Ve nnfryilBNmUcxFVGvU/Jzv/rjFeiikfB ym4avzbZ+myVNdwJsivGp8JxQyiF2qN8 kO5pfT8Nv8AtqPOt2DjOLZhpE0fHWM2v WdVbOKzpA8JgA2dUJIDNMfk1TU8LAc9/ 1f/ZxdFeksHqy4mdBxd2zEf4yBzdb6IQ CCsas72bHE8aMMnD8G8XKEXb/DgwFcna 8ppuyVIkE08ybhjJ3GIc1a9nnDIYWpK5
+ns5.torproject.org. 86400 IN RRSIG TXT 8 3 86400 20170314220822 20170202213852 12519 torproject.org. IxQKyrfAaIm5cUGOY02Pq+bb3taaawq8 cR6wF+Zi/aLQRhXcyXWB8Om1TUCZkTYh 4LuaWdV1fnP3TheQ/zY5PXt9XALzg7/w U0eH8NCi1Zl9lsHuw+xS0ZbfpJnwmmZk ZwM3vdn1nf4qBF/HoaduSFAg33ofLCGV wRWhxQ6E23bTmumaldIkKvMrI3AI0cGf cyb2r9S4BiCjvOzHS4OX7vADYZWp1mLi aymJ9ZKQUTFdFKtWMx1Hpgiriu1oKxIj
+ns5.torproject.org. 86400 IN TXT "brulloi"
+
+www.torproject.org. 300 IN A 154.35.132.70
+www.torproject.org. 300 IN A 82.195.75.101
+www.torproject.org. 300 IN A 38.229.72.16
+www.torproject.org. 300 IN A 138.201.14.197
+www.torproject.org. 300 IN A 86.59.30.40
+www.torproject.org. 300 IN RRSIG AAAA 8 3 300 20170314061010 20170202051010 12519 torproject.org. NcOJRZFP2V+5Qor/Pf80TMvuULW/mU2U oq/Vq9DYR8/NL6agkuYtryx6KXfx+Sqy u197gqilUt5agC3T7J16MzgvCt0HTsdC /WhDrbhkk7VSXl7EXH4DtXCBUyiDJ/w2 uoG5KLuc2Ga1L/X6yPEc45veUESUYKaB AkhGf7tZxWXRGPhpQ0L/mjgUakBehzNC 9VJmFuEcil4agZciVmniM/DVtm9XRSAu p++RjPTnPb4WntAZqcv2KCAwuicI7g2S
+www.torproject.org. 300 IN AAAA 2a01:4f8:172:1b46::abba:5:1
+www.torproject.org. 300 IN AAAA 2001:41b8:202:deb:213:21ff:fe20:1426
+www.torproject.org. 300 IN AAAA 2001:858:2:2:aabb::563b:1e28
+www.torproject.org. 300 IN AAAA 2620::6b0:b:1a1a:0:26e5:4810
+
+archive.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170307064222 20170126060127 12519 torproject.org. n9qI9utlzdabUoySXiJLjUvHKbAA+zOu 4Lo4zT6g0KD15b6iikQXBwsRJDwHb+91 lypH1Z+3P8yt3sDs/nIU7cCpfZKZ2T41 JPcaRCakIzMxW+AiLpQ3b0MAE/bEObTN QWnNHp74YV0qwff7Iw1sLGMwjf9T/WUb p1SkdYp3aCF5oDKsK2O2S9XCUrC1WNZ2 lT4sAriUBmNpxe7lstfzqYE50lM44UoF 4v02w3SMOEX6VLgfDRlVPth4WfAG36E5
+archive.torproject.org. 3600 IN CNAME listera.torproject.org.
+listera.torproject.org. 3600 IN A 82.195.75.101
+listera.torproject.org. 3600 IN AAAA 2001:41b8:202:deb:213:21ff:fe20:1426
+listera.torproject.org. 3600 IN RRSIG MX 8 3 3600 20170306132001 20170125130804 12519 torproject.org. bFB4GYdlSJZGritBVy2d+GfGzJI1yGE0 D5fdOmV9iMYTLH6Q5LOSNVJliLxtqMdG LtAxwLJ6QA0mZe2IIlPeHvaUwP5kZDlx IctaGrRmqOxqusHVw2YgDZ0jWpzAc3RG GfN5AkrgLelAdHIwJpFw/P9z9Lto7irr 2dF4eg1LvMlywbPPlE7YeUi67njyDql7 5Mzj09PF/Yys7P/ck5YRY3ObUP155eur w2Lm+Wimi15ExrX3nG96TWPyXARp/IkT
+listera.torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+eugeni.torproject.org. 3600 IN A 138.201.14.202
+eugeni.torproject.org. 3600 IN AAAA 2a01:4f8:172:1b46::abba:10:1
+eugeni.torproject.org. 3600 IN RRSIG SSHFP 8 3 3600 20170318082325 20170206075540 12519 torproject.org. EsrP6MtA+qPuc0quL9DJpKIendDFUXSM zXA370ZTVJq/WJA30OtYebLC2OOy5b5+ rF6QoDvkEDk2TB1Aw8JEZb/BoWD2x5a7 f5zXBw1SK1zoypWJ8g7w2cGfi6sHsv7c 1bdYt5rxcOFRJuOSX1pPNT+EUOXA8ur8 2JrqxlO1oxotkt1SdQVett2hrBrQ4mAI kEp8r9GXkUSQi7djnw5dVzVyFGeVq391 dOYqpB7TnB43ifutETajM1gOKph2v/Yz
+
+atlas.torproject.org. 3600 IN CNAME www.torproject.org.
+atlas.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170317145903 20170205143342 12519 torproject.org. PLkxRW10oOoKLMq7MNcwDP4c6Ys3FP0O c5XPUtiFgmsHutawRpildIBvi/rbjzW8 F937Rq1PXdbNFBJmA3rmrqgNhqzvm27N 0goajCF2jzJwOLagXKTcd7Ejp+DpUQO6 FPkUObw5KA5lRDdoOON6FhXpANZLJiov rjWkhRuHu/HEpdo3ZWN7lnpU9qZ0C2fE KcText3QTJ4jQjCbYddJ6tRJ9JvY54f/ 6MZaOzAX2AJHT1qdtBKcnm8l+1LRDNoX
+
+blog.torproject.org. 3600 IN CNAME motor.torproject.org.
+blog.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170317145903 20170205143342 12519 torproject.org. QTjglV8RpwMAE1W19ecSMZ3N9o4eKP2R rlYkntzrWASfjc2heIPELKmk8RzFQFA4 HvnxeWylnkKkZVaLuge/ZhHkr3uCQDoX sf48AM+jf/jWbn8BHk7cWgsU52bOqsi7 9fDtp25firDlWUpOWnf54lYeC6+ua8Yo aacgVFLfBXLYcffsYe18wFeyabgGN6lI jRv7YFyKYDyTAu0nW7y2NBaNe1UbapoY m50CgCaq0Wyt1yRJ8sGP5vo8W/iMTjee
+motor.torproject.org. 3600 IN A 138.201.14.196
+motor.torproject.org. 3600 IN AAAA 2a01:4f8:172:1b46::abba:4:1
+motor.torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+motor.torproject.org. 3600 IN RRSIG MX 8 3 3600 20170306105504 20170125101412 12519 torproject.org. Mu4v3GrjpX9Hmd5NMjd9RQx0psKe5geq HvmvOPYEN/fyBkML3j12AgJrwFBtjfHL hzsqq4D0hNvZ75Y3AFFdQ8G09OGwu22Z bWPiO3b+4r7CWwLqQTKSnV97emaR/OUq Fm/6C4bekKjGbm/j83dQu0rrkqPC+JoI 8h2jc34DJVOdt/rk9piiuKig+KdHsWcT WM7v/JimpaEMOQgspLFXRaMU4zHWnOzm AhUfqhbMjsRjLa5z6R2+ycCE6IllN6vg
+
+bridges.torproject.org. 3600 IN A 78.47.38.229
+bridges.torproject.org. 3600 IN AAAA 2a01:4f8:211:6e8::823:5:1
+bridges.torproject.org. 3600 IN RRSIG AAAA 8 3 3600 20170305092410 20170124090143 12519 torproject.org. YX3x/ZJvZfBrIMvJ+fUtflbjzYjHjy5x n8c2AIgh+3gaWrRopEkdLS57Zn+0OWt3 xtUVBHejP3Ek92zcmkegadTt+05yZSkP Cl7wAEVAR7nCfNbQOB1Iu3dwKZ+QgOzZ AItVMXvqkf9jwePObtNUcnjGYLR58dwO I62PoWcKNfxgi5pxY2Wa4TXSInk50hLU 4XFacb4u1BSXgipMK51sNqsmCU2zWRc1 4MOl1m1QItockxqoFo9zpKE5df7/tC+Z
+bridges.torproject.org. 3600 IN MX 0 polyanthum.torproject.org.
+polyanthum.torproject.org. 3600 IN A 78.47.38.229
+polyanthum.torproject.org. 3600 IN HINFO "amd64" "Debian GNU/Linux"
+polyanthum.torproject.org. 3600 IN AAAA 2a01:4f8:211:6e8::823:5:1
+polyanthum.torproject.org. 3600 IN SSHFP 4 2 f9930953f362760f4ff3db6245634479259adf0229cf3282cce45e01fcc8ac5d
+polyanthum.torproject.org. 3600 IN SSHFP 1 2 c7cbe00ef764792bb3f166bd89d8c5091f264fad4319ef1254362c522d01a424
+polyanthum.torproject.org. 3600 IN SSHFP 4 1 61140ccce01eabc75190f5261f3d65054314e83a
+polyanthum.torproject.org. 3600 IN SSHFP 1 1 58367a1f877265bc2481e1db4e1cf5f66f1628f6
+
+bugs.torproject.org. 3600 IN CNAME www.torproject.org.
+bugs.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170317145903 20170205143342 12519 torproject.org. GsEtFXqb4PK/hSUH2QCisRjQLxq6CSaM UYPvZJQ32WD7XaVdYgxydE+AyOrpEazF cAkKM1muAe8qvYhnBwftxOEzo6eABl5B 4n0iK+qn70KM2g+9eBGllim3FAQ9R+xK Uis1lUt0QnPWEhlKnGkt+6qRALBUOyi5 YhpmdSciuYD5LLE50bxhjrb/Py33UVNv 7sRV3v7hS1f90YRydVkKXOJqafxJ70Pz +teQsk8kz47g7ZLCNwzn+HhYOtleFiiT
+
+check.torproject.org. 3600 IN A 138.201.14.212
+check.torproject.org. 3600 IN RRSIG A 8 3 3600 20170311154744 20170130152327 12519 torproject.org. H0Vs9PVRAlGrESU2Lky9+Ja0tlvl312p SHDfpsgmWVV74Ys2SSAsiQPlwTTUFdCB SyQZ0AE8ypaB4b5d6yEJKtuxi1mYO3gx tc2ooYrU2bO/5vX8Q7DEL4TRy0mMyPR8 pGU5XWSis9mQWLoeD63Uydge4bllU2+0 dJ8koTOmnCZ0PdoqIJVaG+9OjvLh1JiE wlrWQGFktZ+hmSJ54TR/2YSPnNuzAQvx YSYgy78cfcovD7j7rn1VV6wM79DY37rf
+
+cloud.torproject.org. 3600 IN CNAME www.torproject.org.
+cloud.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170317145903 20170205143342 12519 torproject.org. YQldTQASIZRI5zRuS3gKfMvj0xeLJ1hb +MVME33CsD8LKbIUnjvomxcDOoriBZ7C X9VlEvd8U4jGULYnxYILS4axuCbZ1+Tm 0YOUAKNjd9kqT2ICy0sCUhN9dxYL2TFc BNkioM0U/CYGQQnUQ8IGRelbckrZ8djI tuf+LKlyJgpUajFJo830N40QArNdPJ+O S5mbPjmdvAxYKRVuA/K4icIRDKeamvXG gBUy0Le9BgrsEgQhJ/50iLIt6kzi6ekP
+
+collector.torproject.org. 3600 IN CNAME colchicifolium.torproject.org.
+collector.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170310182506 20170129182205 12519 torproject.org. BwrC3OAwkLR2UjWnPb+FnS3BBStvK3lX /LDRIyHHp2ELvXgkrWPj4/WsKjQtagst NFlmIHJQeg8OrAEfIM52dziyYJc+CyL+ sSVdxllxgV91zdWe/ATyNMgiTNiGmK5B hzNC+eFkGrAHo10YfdU1XLU0tXajMBkj 5h36z/PXi9IcCjyHeyUPFt/yO0Ho8znL heUH/fJj0SI3LdMjUvjGGKBul2VbQrVN tZ8cJR9QydT1KRoD+PBKPM4w6CMXHOnU
+colchicifolium.torproject.org. 3600 IN A 138.201.14.216
+colchicifolium.torproject.org. 3600 IN AAAA 2a01:4f8:172:1b46::abba:23:1
+colchicifolium.torproject.org. 3600 IN RRSIG MX 8 3 3600 20170309164720 20170128163849 12519 torproject.org. nZetXS4Vr2Vpa0z5acG4McFsBS8gq/gH EOyqOPZofY/H0Nn1AXGmWzihUWvez90Y PUI56U+TvZzLyhXx/mVbZBIuOoS30IyV QfT+bwYaU/fJD5mNSF1w1ebdqlnicdN9 I6Xz8KluhHUgpiufrQ3j40zqH1oXj5TO oYrwo67OifSoLvwC+tZH7+qNSk4YR507 gOyOxy2XyWm6m/7GdSxycise2uuqeMIS 4Ot4LCS72+9QwsMqqAyHmWnXml1sGl+G
+colchicifolium.torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+
+compass.torproject.org. 3600 IN CNAME tanguticum.torproject.org.
+compass.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170317145903 20170205143342 12519 torproject.org. dHJR2TaH32Mk0A6I/L69iF4klC3L0s67 pk1Qpy75l3KEcox0RKGvL3vGutzaXv8t iFSHgimmAikxW8KoykPDAtzTzUbYwl6a /v7TTuE3xeLc6A9YOk1/oqkzP+EK3pc0 Zr3O8vNmhN5ZYrhMeZ9ISNdPOtCgy8NV kIh/KsqD9BnD3QfM5tO9oCDasY1lVLqW oOAE0n+PPOHHpX5LlFslveNpYyZ/QeMg CrrZzPTjgEDqBNCfeuOw3KpCCCsL402N
+tanguticum.torproject.org. 300 IN A 38.229.72.20
+tanguticum.torproject.org. 300 IN AAAA 2620::6b0:b:1a1a:0:26e5:4814
+tanguticum.torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+tanguticum.torproject.org. 3600 IN RRSIG MX 8 3 3600 20170307105229 20170126103457 12519 torproject.org. Ex1tylEfn+ds06RYL1mVutqzLZoJ7Aei mUtNg8WGH7qLmpjIqiHGgju1a62/9bYp joFbDHEmCHWp+6ZRArvmQqUqOloQXCo0 UB5xCSwUxdp9La5Km4pF9KPPpw2OFmeE iAev5rkTgt0sKM2LUYPpWgMkRf5rrqC9 nzy/KjfuUM1oKfCdjmrAEuebcvRSqf9n zeuntdlzL1RlxF0byp51BnHUH7lEivRy WNN4l9+zAtBjPvcmbun71c63WF/baXKQ
+
+consensus-health.torproject.org. 3600 IN CNAME www.torproject.org.
+consensus-health.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170309112557 20170128103350 12519 torproject.org. RqATchnHuqGlKiJnT1y/13jN3U4X38C7 AFEISDJsjjFiM/iV9S/T5d3IDW077mqV R5ufSQwNGU2W1wJsXYA6vxv+lh+jgwox cjs1iuwxSqzIDQIfR+uLN5LylJZe4R6E 23Nnw6SY006SKmO/edymkoS3b5+XEgG7 R4GDGU5vbEcMCaD0B5PET8FpOrbDfIky bybmvBnrEdvM0OmPHhaOX0x/NMLdfjUB HP+lyX+MiTNACX9xxoznlSNsbhTmeOQk
+
+db.torproject.org. 3600 IN A 138.201.14.199
+db.torproject.org. 3600 IN AAAA 2a01:4f8:172:1b46::abba:7:1
+db.torproject.org. 3600 IN RRSIG AAAA 8 3 3600 20170309063413 20170128054750 12519 torproject.org. h+rU4xPJafWASv0gOA5KwcVL2DHLPC/5 pOygQaNBOL7GWZjMz0Xc4iqyH3HxquGU xGx+lSKvObk4z95npkQHZ06nrZ8A+ORT pDr5UkkTI7jaBg0L+FdhvOadRQfqZnd5 0IFyLhra7DMpeTD0EcRafYI0rOP2KBSP 89cXmftjfnjcGqfnSupZEq0tkVXS3QKu YE5QV9gFEELAHgMLF/DHjL6QkefsnuVT UlJHZ3Z2l3Tt8cZFIZmRzf7bqqgvjWys
+db.torproject.org. 3600 IN RRSIG MX 8 3 3600 20170317145903 20170205143342 12519 torproject.org. AZOpXrLFX1KJl2YAWlk/RT1Dtq9nAtAZ mZTEHi+WAPuPXdrudZaKj4XZeF9VH1A9 84MM7TI+IByVQc1WjQM6Md1zqrOQ2LlY rWgfHHTnjQgHrRuqWa8hlE2KCqVGHQmK Oprt3Buu9H0YszKMj5pxr8W96RdhN+Sp aQujaPwTqKabdhZRjW+tMpRf8ZzUIeID rx01zu9eGnm9XcItu2+Wfw/nARwGU/RK EeaswEArhEIOMd3hjRtHlGrLZzeFeiqS
+db.torproject.org. 3600 IN MX 0 alberti.torproject.org.
+alberti.torproject.org. 3600 IN A 138.201.14.199
+alberti.torproject.org. 3600 IN AAAA 2a01:4f8:172:1b46::abba:7:1
+alberti.torproject.org. 3600 IN RRSIG SSHFP 8 3 3600 20170318130839 20170206121855 12519 torproject.org. oa2SHMvgULvzF9Y0sjdYVQWoQFaglkUM XpTOskH9d80W3KrPpT0/+PYtfRmYk7J+ 1qFOWeDpYksdVR0axHlt+EzrMO8WxbLw pTTKLeVy0weMosJL/FRZmd/urzgwAFio fL1ZMgTM93ayJXPaDWMmpDStcNOAul6D f2SJnVfHIuTdKCU9YqmMQLNOuJvAY2gQ S0hUs7WAWKNdvPzaK5V7Tlh+xsKfkukP r+W/1s4DpdMMm4Lmg7nnyWWNM0u//OWl
+
+deb.torproject.org. 3600 IN CNAME www.torproject.org.
+deb.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170317145903 20170205143342 12519 torproject.org. Rjki4t9WyZU5J2xD8sOmi7YpL6+Enh2T A7QSeQkkY8RkK768qK0tbbTYduTXSxi0 veXetDt2KNLo+3iCUqpparko1Xs6CDqx nPVEb2I0nTZv6/LJJkDM8blh8FQTn5xw b4JnLu402xQkl22RHzsweAJxzDM2ZzH0 XVMjjeHDZFU9tU+UgHWmDlBvM1Hnp7x7 FnTFO2dqeP06P+2RwM0OR0l0mHr+Z8q/ jBDDxZOI3lnULSsa4wQFc7bbMqWS5Vta
+
+dist.torproject.org. 300 IN A 38.229.72.16
+dist.torproject.org. 300 IN A 82.195.75.101
+dist.torproject.org. 300 IN A 138.201.14.197
+dist.torproject.org. 300 IN A 78.47.38.226
+dist.torproject.org. 300 IN A 154.35.132.70
+dist.torproject.org. 300 IN AAAA 2a01:4f8:211:6e8::823:2:1
+dist.torproject.org. 300 IN AAAA 2001:41b8:202:deb:213:21ff:fe20:1426
+dist.torproject.org. 300 IN AAAA 2a01:4f8:172:1b46::abba:5:1
+dist.torproject.org. 300 IN AAAA 2620::6b0:b:1a1a:0:26e5:4810
+dist.torproject.org. 300 IN RRSIG AAAA 8 3 300 20170314061010 20170202051010 12519 torproject.org. ZUAzC9XXP4ES+ptbGjp5eE0AB7cIkbIV fzrnNZrFoyAOtovwucZPGiI/Cww9mDVC OMLj6mw8nWI3QDDNyssQo/60LfQO+2dU +q3mRK9n7NUCMElgMs/Wcwrqgzje0AWp /VCm/2SD64jgiT4P09AhEiMat8+oQDbG 3pXCxlTvBtmvfMPiewE1seZZxpiEQmiF IFdMhLb7xxu4+JySdW1f3TxZbCfsamd6 liE18vQM8AFeu4uUo1XwUyuUaFMrmI1G
+
+donate.torproject.org. 3600 IN CNAME geyeri.torproject.org.
+donate.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170313104856 20170201095255 12519 torproject.org. ZmWmhuVgSCzsY5dDwPynw2WtHIDojQ5W BLw8kkio/8p17FaF0QPvlNIr46F8+gZD P5qaDplSP+0dpCaNR0HuJ8o1UIS1gehH Td2We9qP0SRDHbDT3Y97yyq7jGXgL9n1 KQLnWcMEYm7RPYXtaBa8GbXFllDRpuam OkDeYAZhQ9lnRD5bnWibhH3Fc2EZWv0+ MZ0PwNBW+8V0rsbIRJAbTc/dfkgx8ciT 5lG9Eik35Pd171LCRWlmuefKrmDWu3oA
+geyeri.torproject.org. 3600 IN A 138.201.212.231
+geyeri.torproject.org. 3600 IN AAAA 2a01:4f8:172:39ca::dad3:7:1
+geyeri.torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+geyeri.torproject.org. 3600 IN HINFO "amd64" "Debian GNU/Linux"
+geyeri.torproject.org. 3600 IN SSHFP 4 2 d9bf6d890d1af0ee94594fccd5cd38db10d1ccbb73367788a2bd4980428fbb84
+geyeri.torproject.org. 3600 IN SSHFP 1 2 66920be1501fe463c8ff3dff461dadb3d08ed10a0cc37a88da8058bdbd6fae87
+geyeri.torproject.org. 3600 IN SSHFP 1 1 67557ab69ffdd9da37b23f94e7da97d7f32f88cf
+geyeri.torproject.org. 3600 IN SSHFP 4 1 79037d411521c1606e4c7978228a22bdc9ab48bc
+
+exonerator.torproject.org. 3600 IN CNAME materculae.torproject.org.
+exonerator.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170308174423 20170127171938 12519 torproject.org. Ujghl/PiMbv/2Ee9JnEBX4y5xOhtxZ9h l7uc7M1nakqY9bgO4GaX7U5+AKMm+HGQ wClVZL5Xsc7Pd8mwrdEl8eRpFniezYot WjtgNzwhMr02cTmj0gnIJrFIK/QkukI+ FLfBf4+M2Pia6Y+/dydzvW4pstMsNbSh xjOhdNKq/nPvsXWD86COwLowVczu9R2l xSmBVA7xbqMTNfwjWQ4jfVdlIMNnU7tH rWAjs9hXyvuGUSqa4Jj0xPsZkRlHavR1
+materculae.torproject.org. 3600 IN A 138.201.14.214
+materculae.torproject.org. 3600 IN AAAA 2a01:4f8:172:1b46::abba:21:1
+materculae.torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+materculae.torproject.org. 3600 IN RRSIG MX 8 3 3600 20170312213306 20170131203756 12519 torproject.org. TIh+3lj/A0ODqpr9F6Eet136UWJTcRdm OStDaPiIWiVBFjYVzMr93dU5GHtYLCPp S41Wsy4RCY4PbC0vFHgsOksvUVxO8Pxl iaZZrQdwQY1F3bSJuufDZ1e5IQIxAcPN qca7dcufphJT//Ki5d2hdl2axEffzWC8 w74KIub9XuxI6eNcra6n+rPRAZDODP7Q fFsuK1GTO34E55BDM+DpQlK5hsiZz91X CyzWkWL38qVV04kBG67KtHQHCyKMrDOW
+materculae.torproject.org. 3600 IN HINFO "amd64" "Debian GNU/Linux"
+materculae.torproject.org. 3600 IN SSHFP 1 2 7a47b12d4141131de72daaef6fce9ea5d0b76dc267b90fbcc0e3f4485a3bdba8
+materculae.torproject.org. 3600 IN SSHFP 1 1 4aef7d249054b1c8bbb4693134f9bc9f85002f80
+materculae.torproject.org. 3600 IN SSHFP 4 1 c9803e8ab367bfcbccab91467685cb553b3123fe
+
+gettor.torproject.org. 3600 IN CNAME www.torproject.org.
+gettor.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170318034031 20170206025705 12519 torproject.org. lT52p3zpu8pNu4V3UuAgDwuPZXdZnvqO JMuaCz4pDzPLBzqAUQ4estWnkcPQ15le jQm4mugwC5qO7xpLsutWr4g4fr+CjTC4 34Ehh72X4lSlKBnrDl94JHrL70Qj7DJq xTGOuSHco6u6J29N6fItJguqzv4vDKH6 3TP8g/oD7gd2uO+46SBAB/M4/3TdbprO yVNU7O8RaMEUOACbKUrKPPSA/wzDdWIK boIgw1QkblaknQvF/+YW91KDja2SCWr2
+
+git.torproject.org. 3600 IN CNAME vineale.torproject.org.
+git.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170308174423 20170127171938 12519 torproject.org. VPXeuVe56eGGZvkr9INHfzvaW2+KbzL6 wDwqIy0tDvjFvC3bEv8wUl/g4DhZ1Ya1 ldVyGH4p5FjFwnrYn1s4TBUVsA4JfkpO eA7gt1yfIrrczVSsB0F9OgpeWHgg7EwU OiZaWBceoWTF7bQJdisL85cjPwJ0G/IZ QagDt+ZPGlKMPhau9fvhBkCB/b/Y0WUl Q+mPFUe1doJVY5yt83B6mGRToBh6srLO RPQLaqX/BCITHyoHOO5NZeRzGFoh90nr
+vineale.torproject.org. 3600 IN A 138.201.212.228
+vineale.torproject.org. 3600 IN AAAA 2a01:4f8:172:39ca::dad3:4:1
+vineale.torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+vineale.torproject.org. 3600 IN RRSIG MX 8 3 3600 20170307105229 20170126103457 12519 torproject.org. Oi7Ay03ZKfX2/Q5dlQuTFhgcNnsuF54B HRX7A7Q5Kcf6VMtrsYQYxJryaM0ia2VS MR8D9aHKdoSspX9G8OyM9+jkBEhHViDB WWbTATUgGyyamsn3KzL/jmEy1fEN53iI 7/WRDxnBt2GPOEwL2GW05awW7819bdQj 6RDaR2eY9jfW5Jlu0FR11FshbXLM55ag 66KeNJEt9bG4X5uTPvCBJhIz6O7PWfFl mLOlCpW4AsffXAbVwcZrvdvYcGChMTeh
+vineale.torproject.org. 3600 IN HINFO "amd64" "Debian GNU/Linux"
+vineale.torproject.org. 3600 IN SSHFP 1 1 690a6a0d6274151e489a893da02ece466fa402ef
+vineale.torproject.org. 3600 IN SSHFP 1 2 fa726cca2e7998a9c6c1ebb6be6a756955e9cd01f03c9e9fbd79853b1a843e4f
+vineale.torproject.org. 3600 IN SSHFP 4 1 2e5df6bc8facf9792885409480629dda783a63d4
+vineale.torproject.org. 3600 IN SSHFP 4 2 5ade9a478f56f9c1188e20527746a12f26392b8cf17354285fb2feed73d0a7aa
+
+gitweb.torproject.org. 3600 IN CNAME vineale.torproject.org.
+gitweb.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170308174423 20170127171938 12519 torproject.org. FGSsatInxLZWPApgjyrpm1JfKijxOQso nIv0PyLibQuWwGx8NCGh7QPrA4bZ/Aji TeRQsTUNQvpDhEb34AHDg81Mrlp8DqvT o6HhSvwQxEFn/IqCi0/vLfV6u2Rt5UJt boVy121lAn7H2jETgQiiCDVuGWSg42sl norC+hcNEehDQHthiQz0MDtsBTNrd333 4roRpr7L6/r9bBar7mehfFvPNuEyqTDu 6uFMt7BYE2lzxGLYnm7hOY8CGIjBUKgQ
+
+help.torproject.org. 3600 IN CNAME www.torproject.org.
+help.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170317145903 20170205143342 12519 torproject.org. Ye5ozyqB1n89ekfsIk5l/S7F+qt+xchw gwsf6TlAll3LkTkWVzcE1WUtQJ8y8Fxq W0D1R+X79KxLj7kZy2dafzkbgBPPR0oT Z53qPMy/8zXjmCTkCnwPfWoKRPrZJ6jC FxF4DzU3eco7gKdFaN/xjEP+QbvpChUH 3fGku0GMNHEMDr8K824cslwnkDY1tEk1 7MrCZgErV2A56fi5tzaW3kj+pXfyXHVc h8gWuJVmXqASg0EMxflh8ITX39CXc2rb
+
+labs.torproject.org. 300 IN A 161.47.6.182
+labs.torproject.org. 300 IN AAAA 2001:4801:7903:100:aff8:a2d8::ab4
+labs.torproject.org. 300 IN RRSIG AAAA 8 3 300 20170317101440 20170205092042 12519 torproject.org. DudemOWpZ8maHD10HQp2wVtPQo0ws5PO mkW9SztmdsPD7g4izdLUKEdnP5AB1x+u a2oaP6+o07IYmGVBh6WjOSTzObhzS+tC oC2l4DwygsJ5MSEc6/27qXFd+yCd2E5X 7rvt1Xh6TlypU/46sjvwvZ8nM/ZMjKC4 UoVMl2zg/RzGEc3IFn1chgGBlrRgO7be RmnMcxigiAO4FITzi2c/G1HEYuq+VcH2 OGKRfv5s7UcYsVZI32W3TlY8bw4AXuE7
+
+lists.torproject.org. 3600 IN A 138.201.14.202
+lists.torproject.org. 3600 IN AAAA 2a01:4f8:172:1b46::abba:10:1
+lists.torproject.org. 3600 IN RRSIG AAAA 8 3 3600 20170310053040 20170129050500 12519 torproject.org. VEmNsyqjQCrkWEiSgTT1Bt0UNxiVYEAy 2W00WgxiajOt1uSLP/juRuhdq4c6ojAp E0AjMGDYhqxUyCVymqAQ1wWAa+rhWxPx 7B2JCZid9tbtMRfwhZg0ZyKi7M0i8NPP Dqf/8+UG4nfrBwe4N+4jifVTN9RHaoXu LbK8W62QqbM31kO7Gb6wW9kT1yYDXCFf Qve1TM5C6HcX7CTYLS/ZuYqZjghELo6w lgvcO3OJquDb49qs9M2CXqI4ixt1gAR2
+lists.torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+
+media.torproject.org. 3600 IN CNAME listera.torproject.org.
+media.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170307114459 20170126110131 12519 torproject.org. eWNVXUQyHQf5B+Uk0RD2Wf2RVT4c8XjW UjoL6tYlhfd3TuABTQQns87/nJyrHTgV K1W9bBrUUnrk1vegGByRFlDU/iuGfUfK /qlV2LdZ8VovMb5L82XHAi7Xb5nDJ4Jf MvUg+HQQNjNluOpx8zyLTFJ9IBXOF+wd yICy/TXAAFvVYJ+DY3JKch6PhRKWcLd6 8ypZSllrqMB+9x3rwqVz7kU1jmyk9Xyz jGcLQzy0g3pyDLcy+XS/Z5SvqIn5DB84
+listera.torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+
+metrics.torproject.org. 3600 IN CNAME meronense.torproject.org.
+metrics.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170306020532 20170125020212 12519 torproject.org. C/wFbe7j9GAFA+hdxUZcsP6FA6i7Q18x QMYG4GPgWr4EnjUcwv6tHniHpXhyAStG v9DiwqB2LaWIMYdXKtGN9W2yCllzgFrf CChD5Sk3M8GpRKI6fVcf9H2ju9H3InEm FJxmyIoLdVY/rUvZt/uI836JOudgP3kZ 5DOOhzKMeHVPwD5y83h//TQmQ3v1exMZ Gd2BCeWZVP+G7Zl1Ko9FRBcfrgGOApZc iPOiDU2fACXbyyBKZIXH+LmaL8wms5BY
+meronense.torproject.org. 3600 IN A 138.201.14.215
+meronense.torproject.org. 3600 IN AAAA 2a01:4f8:172:1b46::abba:22:1
+meronense.torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+meronense.torproject.org. 3600 IN HINFO "amd64" "Debian GNU/Linux"
+meronense.torproject.org. 3600 IN SSHFP 1 2 7d206b1fa53c0bed36baee09847bfcea6e4fad3d9c4abdc9cac755f695cf9e6f
+meronense.torproject.org. 3600 IN SSHFP 4 2 4d7acbe5247e7e51f624b8e784ac4a560ffe711d471d9f74aa79f95cf0e3b9d5
+meronense.torproject.org. 3600 IN SSHFP 1 1 fe94ca689fc44255e231e93e22eb82f01ef03ba9
+meronense.torproject.org. 3600 IN SSHFP 4 1 ceb6a27d429f50bbe7da5493d23e409a150a7ec1
+
+onion.torproject.org. 3600 IN CNAME www.torproject.org.
+onion.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170307081457 20170126081341 12519 torproject.org. pkouVvSyaaLAYP+YkjK5111XfZPMgqC9 IwGOpFVxKduKE/oKDXEbwO9gWCSeNjOB A2PNUUbvruK1WEvYpqD51VrXjLhwyOL5 csBdPz1/hynIt7RA0rtc43cAyC9G5vfQ lyPHn25lxEGWSPr1UKaj8voRTcet1H7E BZQ3skJSVWFrH+P2JKqJMh1V774ZMPYk n++tXDWHgZO0pr2DEd2Cc9aL9eZLLG2U 9rSODAgl2jmB/+nLEx4kexRq+xeObyeD
+
+onionoo.torproject.org. 3600 IN CNAME omeiense.torproject.org.
+onionoo.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170317101916 20170205094812 12519 torproject.org. Uv0tK+UTa4LdYttHi4cSdTuXwMEwEFg9 87Fs4CsaAJ/oEP7gANjzSET9fBr8KL98 LPDQxMQYypYkoV+usUb32yM/Pwk/f/SN 4UNUrNXWN7qRTDFBv6FHBDaKKlqcaKuk 5Ly2fE3OwvVzIU1r5x3wS6YCSFU6euyY rRfBcOalW47CNBTXUa2U5nrEfjL/10Wn Inz1xUiRX2Q4vL/ILRGyAUgam5w8TYB8 kZaSoAzGZxmmRXjdF7JaWUy+itt4HMCh
+omeiense.torproject.org. 3600 IN A 78.47.38.227
+omeiense.torproject.org. 3600 IN AAAA 2a01:4f8:211:6e8::823:3:1
+omeiense.torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+omeiense.torproject.org. 3600 IN RRSIG MX 8 3 3600 20170307105229 20170126103457 12519 torproject.org. BDeZywwyY6EMxC9OG/OdKw9/098BGoTh lQ+/RCPrihty0+jCk8/Ha4AetgPXEsV0 c8x1ex16Nu5KaTyhCSfT8Mr0F3/A/6FU M3G9vsGc4Cd2IfDz2gSaQOpaciptPtHA SRboR1S+utCdrBBxuiLZHiYjeajM71nB 4RmtrL/KP6r6Vy5raLsCGQNqQ4Rtg1qd Jhx53+7Jw73t5eZV9EgvsIgtzpqATIsi /XZnt5R8vsi8wVmZMpoGvZ1ver4CJkMX
+omeiense.torproject.org. 3600 IN HINFO "amd64" "Debian GNU/Linux"
+omeiense.torproject.org. 3600 IN SSHFP 4 2 e6aba492b4d3b904fcc7dbd8581999ddc447a9990a8ef44aebb9bc3794eef71f
+omeiense.torproject.org. 3600 IN SSHFP 1 2 3d19c15a2076ef921f64bf30bb5acd9f8a0ed4de59bdf90819b1d7e8be866484
+omeiense.torproject.org. 3600 IN SSHFP 1 1 a0edc00aebea4ddac8b4aaf1efe6a466804ba8cb
+
+ooni.torproject.org. 300 IN A 38.229.72.16
+ooni.torproject.org. 300 IN A 82.195.75.101
+ooni.torproject.org. 300 IN A 86.59.30.40
+ooni.torproject.org. 300 IN A 154.35.132.70
+ooni.torproject.org. 300 IN A 138.201.14.197
+ooni.torproject.org. 300 IN AAAA 2001:858:2:2:aabb::563b:1e28
+ooni.torproject.org. 300 IN AAAA 2a01:4f8:172:1b46::abba:5:1
+ooni.torproject.org. 300 IN AAAA 2620::6b0:b:1a1a:0:26e5:4810
+ooni.torproject.org. 300 IN AAAA 2001:41b8:202:deb:213:21ff:fe20:1426
+ooni.torproject.org. 300 IN RRSIG AAAA 8 3 300 20170314061010 20170202051010 12519 torproject.org. bcsxDrsRoMiEDV+usW493CZLncvS5xlf Xa0frubSAzMhVAQiKa/YqPMjfwVbxBZx x3d8n0FvpIqPtl2CREVp0+21ItG4ulF3 lAuk+U0071pHuXAhJ+pA4QN3v6DAM4RR 2gUJF3DpNlw1CDsZfbGi+Xy1dt37K+oT Ad05YfybDykDu/DObraPz746pjOzAuzu 7tIR8K30W4FuPiDdHDiamSrWgtudgIZn zzFcWP+1H+J+gkm347PMTIFnHbC7yQW9
+
+explorer.ooni.torproject.org. 3600 IN CNAME explorer.ooni.io.
+explorer.ooni.torproject.org. 3600 IN RRSIG CNAME 8 4 3600 20170317022608 20170205012753 12519 torproject.org. V5VnkfzVwV9Jrq87YfPD4mLeR5C0Xbtq 96mmnx5KoxW82rrw38Rr/mskfKtbRjdH zB2xqKJniSY7bmD+lVGRW1R0HQ4ws/vu FHjiLHbLkQs0ucivC/0qX70FGslirTPR nGomp9IE/vrdVqQswtQjlWTV2z7wuWoL 1FEa/zBXBsmTnREtFEhGZwNz/95kALqA d2LBFXUc+R64x9DfPngibnTrsU6eruWs zw+y0hN7oBMe4yX/0hPiWPreG2wX0mu0
+
+people.torproject.org. 3600 IN CNAME perdulce.torproject.org.
+people.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170317145903 20170205143342 12519 torproject.org. WvnLlvPHBHA4CbFVSdYm/TGTutrC2APu U2ojmSTrDce/qbmdh27efvmYZZXBrJvv jX2rK/koo4OeRahU0+UsjcbpvjPaZPLK ImEJ72Zowp1cukmD7ZUnUL7gX35PY2Np wOs61TbZbJ+/gfhJEqyTu8xEsiw5LMuN L34zPmnYYW0KiNdBSX4ZXdQy05JVur89 Nx3sHSpLzriP4lbsedN0YZ0gdJb+bim4 wgYZG0dSNtTv0M+pr9I82SaMT7H0UUuu
+perdulce.torproject.org. 3600 IN A 138.201.14.203
+perdulce.torproject.org. 3600 IN AAAA 2a01:4f8:172:1b46::abba:11:1
+perdulce.torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+perdulce.torproject.org. 3600 IN RRSIG MX 8 3 3600 20170307105229 20170126103457 12519 torproject.org. ZqyyZz+BOA9neoP+11Cpecj9AO+lpB+s sJLTYuz8rXCLfR49IV5Gu+rICxOk31YX mR1GNHGFnZJ28+Fy6Eas+yZLnDuJwvNq OUwaRX7oiYuUMFftzGiHB+bQtAiWuOdJ +/j6/lUGzstNrbmjFXnkBI8Hmc6vzPHc NwSQPDTz7JxguW7eI9v138z+/aw1gCRb zIK1cnng6X2FoBHQLRvqXdS79qSgIJBO oK3SPGTiet7SPwzrBqNUNH/1UT8Zk+LD
+perdulce.torproject.org. 3600 IN HINFO "amd64" "Debian GNU/Linux"
+perdulce.torproject.org. 3600 IN SSHFP 4 1 ad97454eb783ad28f397db9c5f5e4a0a4b8f43e8
+perdulce.torproject.org. 3600 IN SSHFP 1 2 4ec3d1ce90c803bd9ade35a5686cc9134a8de586be7c325da983fefe6b0c9e7c
+perdulce.torproject.org. 3600 IN SSHFP 1 1 accbec494bbc4f4f98772f9cedacc1d3bca655b0
+
+research.torproject.org. 3600 IN CNAME www.torproject.org.
+research.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170317145903 20170205143342 12519 torproject.org. E5SJOo69tCFj+0GkUi0FBhYhvc7iqxWB tUrWrdt3oIQZtu5BLhAmsZ/AZlLvKUxd sqq229ecGbYS/TjshpO2/YlX9TwLzp34 TER14kZy8pNGJjQB0v3uuZEG2LYHvSq2 VVHF1HLK5Q5QhOQ08hdMRwLiyCmz2846 Ps+4jsvWXuGYQXv3EHDG3fAtO3HI2Ymy KorbfPURpMSAipTFlT51v3dzTSwzQIj9 hZdRZ1iZ2SgU2Pk7RKxiM+EXazZ+T4az
+
+rt.torproject.org. 3600 IN A 138.201.212.230
+rt.torproject.org. 3600 IN AAAA 2a01:4f8:172:39ca::dad3:6:1
+rt.torproject.org. 3600 IN RRSIG AAAA 8 3 3600 20170313125514 20170201125512 12519 torproject.org. kIWtiHK48GR6e5RSzxc6xfpI596bZw/C g7bbun5EfcJdK5kSBSw+CipRA1KV3Jr9 HrhzXHJ6DHIw3Nv3ipx9K5cdhZqTQNSP nsR6ZYD3KL0SWAY5uwuvkjKxpTyubtXQ hGIeuj3ofwlvEhNpHLJeT7tx25X4QPa1 xkdDHMcYtDX26vr+ZubFT45h7eERIRWM Hm3/fBvjDkytSiWEQ3uOyvWpRwPf8LxM wM89rCpytz7GIadL4n7VScNBlRcY1fw6
+rt.torproject.org. 3600 IN RRSIG MX 8 3 3600 20170317145903 20170205143342 12519 torproject.org. kbSjM8x405SyzqC6KQtVtLHDcXnjt8b6 E/TFedTJbacekoW+rBJ2no4wOoNzQDUv VQayzahSfq/uXh0Z/ZonOWvyacBsbRn+ wozELpADfJ9+L59haOVvEPcbBl4OZ5TD 7syHaVaRtJnpx8FSXOoczgLRajJRncVt NHhS4XpLQtchAN5W4jz190mfA3xqKin4 6EAPck8LWesSl0KATkTCJp6TuP9zE7C1 vvyuWnsxholz9WdcHM3H/F53agB/KYXw
+rt.torproject.org. 3600 IN MX 10 rude.torproject.org.
+rude.torproject.org. 3600 IN A 138.201.212.230
+rude.torproject.org. 3600 IN AAAA 2a01:4f8:172:39ca::dad3:6:1
+rude.torproject.org. 3600 IN RRSIG SSHFP 8 3 3600 20170314064204 20170202055911 12519 torproject.org. RgTkEmoyv6PmIuULha9fyR/m5cWTCJod tJWw78d0uBVT+FFY3xTozM579ZwYaymK Ryw+XruVWLvOvFN/QWyQxYjg/00ATNcT GpP23M4z6J438jAJiEvZwo51LBEZE/c4 vAzE3LA/azPUhF1jAZ23nyzPEXXGFHPo tWFBO/UOuS7TIp6mQolDYf73QYJwxcTD a30KwZ7Wx9R63kXY6hFt8w4pQ6zsAyVC cgY2x84dO1SXkZqisbELknxq2YMBAtWk
+
+spec.torproject.org. 3600 IN CNAME www.torproject.org.
+spec.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170305220159 20170124210316 12519 torproject.org. E5zJMVLWYP5JCC33bU6AQbBJzXP49GG/ 99x569PF2kK869ATGlTF61COwSM1C2eE m7slNfa5E2AcvuCYwnjS8bCgd0eAUrOV gS0HiindoOhFZy6g4QQnADREX2OurPsS v4/uoJFAdtFg3F8ORYR79BU0VG4x6utd Fm6QIsrK7Rstw+DN1hbSuXkEMXpJFSWJ tiSO1Kkv7gP3/sT8L48dLoIPGchs+pcg xiQ+ClgXe6apEZQjNcGCMYV5bODSp1jg
+
+stem.torproject.org. 3600 IN CNAME www.torproject.org.
+stem.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170317145903 20170205143342 12519 torproject.org. Pjg/vul7nP608JOMhOnGJRVsqM7ANENN sCph99lM0UgBIbhlj4tGvFvCT6v9p0GR gAcr8q9qx44tW1R58QIFClSo4EpRnule DxmH2bE9b8HD9p2+kDhGZd2MXAsmg/w6 jjqZ5VtrKBcGfB2zdR71M68CjadvR06q RZyS7/vQ7fdHW1ei0fsOQixCk+PjHs74 F8KxyL3hurCikb1kPZz1NaZdQV4uhHHr bpkqJ1fPDiDmNv/T85xpQXo6dxoFqzKt
+
+storm.torproject.org. 3600 IN A 78.47.38.231
+storm.torproject.org. 3600 IN AAAA 2a01:4f8:211:6e8::823:7:1
+storm.torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+storm.torproject.org. 3600 IN RRSIG AAAA 8 3 3600 20170318004208 20170206003850 12519 torproject.org. CQTbNFMX5OVPtucs7pfVThvCaK8SJd2G DabD8lqAtfSPnp1pNw57JWB7npY8Qleh jUgtc7Tv8+1ZNM5TN726yG0jRCjXaFRf ULSRp8PKHpEQcABfEwJXG04lpck2xo4/ DQBl2zrHwrsr1KX3GxRSqdoIceRl61O7 DL4Vxb+fHC6vwVeiWtb2yUj9716y63zo 7RHYFJXiosKmjYEN2WZjx7TxxO/EDEw1 fOthx3jXvuvwD+6kf/C6fWtdefjSW3lX
+storm.torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+
+svn.torproject.org. 3600 IN CNAME gayi.torproject.org.
+svn.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170317145903 20170205143342 12519 torproject.org. BzjqTOG+BRh5hnBGdrEWaZXVOS5w7eVI cd0jA78v6cHnNbyEy8Uppcbni9ISpwIM GDwkA594Av1G+LTq5xukb0cDCw+qXkoX MTDuXq4LaSC7JHG/fM/1jSelwpwasJ52 ftYeGTRv92K2frdWtc/kqU2GzUxZuzo2 12qeCaPlKhaAurQ95S+I+7RSsZjHfz+C +9ZVcO2ZWZ6TzXxUGGY+GEoXI4Jo4NoC eb7QKx2ajWYrVqh7SjnIv7CrRLc5gmcp
+gayi.torproject.org. 3600 IN A 138.201.14.206
+gayi.torproject.org. 3600 IN AAAA 2a01:4f8:172:1b46::abba:14:1
+gayi.torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+gayi.torproject.org. 3600 IN RRSIG AAAA 8 3 3600 20170309131143 20170128130143 12519 torproject.org. YHtOJhwqjm2z7caD8eJ9u9ky/C4nbI6C 8oPl7B0VtJ1FglQkQAGCb68+Dl1Vjm1X MHu85eNsAeDQpoT6Bf9O/LRfXrrzsUG0 gq33eB8oPIpzZIz2KnRJhL2uTXTWSxbu 0uirIpT6mZUc8fnITHG8h2rfaRRsSI6p XU0C41dUuL/s96cJPm8mDnC8cPHPdSOP g9+Xr/Z5SMgyTc2Pk1AQlGQEW8aUxpZ6 AMsQmXPmCBFrUmD9y5qgfdsd4YmRzls+
+
+tb-manual.torproject.org. 3600 IN CNAME www.torproject.org.
+tb-manual.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170317145903 20170205143342 12519 torproject.org. CAp2JqMaX63IAo4XvLlX7Bz7pR0M1idD QzRXX7P5IWQdPdneIi7fupDyg3PaVpoU 0228Vp32qlFlArXJvkW27yHGhwbHQTPY l89n3A0wHADc5d/cfNfdkVWOyH3WHJvA X72jFhGCUO4AImFSVotr9uTTTi5fdB1k eyM5/kTCkN+CnxZ5cJE4ZkAH/6GZBZEu 5WICYr88wuzqTl2iSFBcXZw3xIlreCEx A5VkNOTSHQDpu1YrdmW7q443e2+X0pfC
+
+trac.torproject.org. 3600 IN CNAME troodi.torproject.org.
+trac.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170317145903 20170205143342 12519 torproject.org. S3JG4Q+m/D5ykyfYHhlZUJyWV91h0str 3HgHD/m4QgFagermIBtvVkM0+f4kwFKG E4pR50g9z63jSvrM2Jsms80Bb9Dp3DFO JEigvfRMWDfvMzjbKJ6vQXPiGIIAwA0g 3qQzGnpYQPnzGRvr3tv3xeez9mkQ91N6 aryg28gGJKJO/suT5xSHvVU7CQI6uEug wbFe8/MScChphjVf7nYpCzCTIrbLi86B a8f0dm3zX6BIVgumsT/8UzHET/8pKTqG
+troodi.torproject.org. 3600 IN A 138.201.212.227
+troodi.torproject.org. 3600 IN AAAA 2a01:4f8:172:39ca::dad3:3:1
+troodi.torproject.org. 3600 IN MX 10 eugeni.torproject.org.
+troodi.torproject.org. 3600 IN RRSIG MX 8 3 3600 20170306153354 20170125152513 12519 torproject.org. cynRjzxK3vvFikIho7rauGFSWCxF7zKb z6sPVUUbxfTqpP9AtPF1wSXSmCQjM1BA 1PW/de7AFd2i9dB8U86+r6GaF4qI2hoY vh4Ua2FFJxvAedYA40fX5TQdr1YZouYS 2YVK5vQ6+uC/sFS1lQ62TN1aBi+MF1T3 r3nLC7Z3iidqLtbaFAt4nyfeWXUGbTV8 AmqROocAeKA9LMq3x63p0+amIgST+kS7 DK9+qF2FbaJBvHNvAJEjycZxsNWaWX18
+
+wiki.torproject.org. 3600 IN CNAME www.torproject.org.
+wiki.torproject.org. 3600 IN RRSIG CNAME 8 3 3600 20170317145903 20170205143342 12519 torproject.org. Rryj5Vve/Y/aL51KS8FRc385AvvPysW9 mGKlVunlhZW8Xe81RCdyRRIO5mU2XDWz BkiuBOnL7JbaCN7czirLVlJ2k7ocqI1U rX0paAApx4dAIuENrOKx3SqD+xKqNyvA XmultdnbUJ5zavfuMpYDDcI3ccgOz2GI nwS4XUx2RLe0seR81HfDCEffwbAvhhU6 hYU5lCobiMmo75P+a61FQrCgQkjjqEXl YKc3291O3rOiOPYx+hoauqxLm9HCraos

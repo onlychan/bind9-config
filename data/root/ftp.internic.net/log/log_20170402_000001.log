@@ -1,0 +1,4 @@
+--2017-04-02 00:00:02--  ftp://ftp.internic.net/*
+           => ‘./.listing’
+Resolving ftp.internic.net (ftp.internic.net)... failed: Name or service not known.
+wget: unable to resolve host address ‘ftp.internic.net’

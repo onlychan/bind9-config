@@ -1,0 +1,21 @@
+$TTL    86400
+android.com. 300 IN A 216.58.218.4
+android.com. 300 IN AAAA 2607:f8b0:4002:806::2004
+android.com. 3600 IN TXT "v=spf1 include:_spf.google.com ?all"
+android.com. 10800 IN MX 20 alt2.aspmx.l.google.com.
+android.com. 10800 IN MX 20 alt1.aspmx.l.google.com.
+android.com. 10800 IN MX 30 aspmx5.googlemail.com.
+android.com. 10800 IN MX 10 aspmx.l.google.com.
+android.com. 10800 IN MX 30 aspmx2.googlemail.com.
+android.com. 10800 IN MX 30 aspmx3.googlemail.com.
+android.com. 10800 IN MX 30 aspmx4.googlemail.com.
+android.com. 60 IN SOA ns1.google.com. dns-admin.google.com. 144663733 900 900 1800 60
+android.com. 345600 IN NS ns1.google.com.
+android.com. 345600 IN NS ns3.google.com.
+android.com. 345600 IN NS ns4.google.com.
+android.com. 345600 IN NS ns2.google.com.
+
+	
+@                        IN    A       64.233.162.84
+@                        IN    AAAA    2404:6800:4008:c02::11
+*                        IN    CNAME   cname.google.com.

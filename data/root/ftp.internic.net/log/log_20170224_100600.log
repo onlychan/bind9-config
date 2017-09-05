@@ -1,0 +1,178 @@
+--2017-02-24 10:06:01--  ftp://ftp.internic.net/*
+           => ‘./.listing’
+Resolving ftp.internic.net (ftp.internic.net)... 192.0.32.9, 2620:0:2d0:200::9
+Connecting to ftp.internic.net (ftp.internic.net)|192.0.32.9|:21... connected.
+Logging in as anonymous ... 
+220 Internic FTP Server
+--> USER anonymous
+
+331 Please specify the password.
+--> PASS Turtle Power!
+
+230 Login successful.
+--> SYST
+
+215 UNIX Type: L8
+--> PWD
+
+257 "/"
+--> TYPE I
+
+200 Switching to Binary mode.
+==> CWD not needed.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,135,135)
+--> LIST -a
+
+150 Here comes the directory listing.
+
+     0K                                                        19.7K=0.009s
+
+226 Directory send OK.
+drwxr-xr-x    3 ftp      ftp          4096 Apr 04  2012 .
+drwxr-xr-x    3 ftp      ftp          4096 Apr 04  2012 ..
+drwxr-xr-x    2 ftp      ftp          4096 Sep 09  2015 domain
+2017-02-24 10:06:05 (19.7 KB/s) - ‘./.listing’ saved [183]
+
+--2017-02-24 10:06:05--  ftp://ftp.internic.net/domain/*
+           => ‘./domain/.listing’
+--> CWD /domain
+
+250 Directory successfully changed.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,43,6)
+--> LIST -a
+
+150 Here comes the directory listing.
+
+     0K ...                                                     224K=0.02s
+
+226 Directory send OK.
+drwxr-xr-x    2 ftp      ftp          4096 Sep 09  2015 .
+drwxr-xr-x    3 ftp      ftp          4096 Apr 04  2012 ..
+-rw-r--r--    1 ftp      ftp          1829 Aug 18  2015 .listing
+-rw-r--r--    1 ftp      ftp          1224 Feb 24 01:16 INTERNIC_ROOT_ZONE.signatures
+-rw-r--r--    1 ftp      ftp          1469 Feb 24 01:16 INTERNIC_ROOT_ZONE.signatures.asc
+-rw-r--r--    1 ftp      ftp         15186 Feb 24 01:16 arpa.zone
+-rw-r--r--    1 ftp      ftp          6637 Feb 24 01:16 arpa.zone.gz
+-rw-r--r--    1 ftp      ftp            33 Feb 24 01:16 arpa.zone.gz.md5
+-rw-r--r--    1 ftp      ftp            72 Feb 24 01:16 arpa.zone.gz.sig
+-rw-r--r--    1 ftp      ftp          3291 Oct 20 19:35 db.cache
+-rw-r--r--    1 ftp      ftp            33 Oct 20 19:35 db.cache.md5
+-rw-r--r--    1 ftp      ftp            72 Oct 20 19:35 db.cache.sig
+-rw-r--r--    1 ftp      ftp        228019 Feb 24 02:00 in-addr.arpa
+-rw-r--r--    1 ftp      ftp         90371 Feb 24 02:00 in-addr.arpa.gz
+-rw-r--r--    1 ftp      ftp            55 Feb 24 02:00 in-addr.arpa.gz.md5
+-rw-r--r--    1 ftp      ftp            90 Feb 24 02:00 in-addr.arpa.gz.sha256
+-rw-r--r--    1 ftp      ftp            52 Feb 24 02:00 in-addr.arpa.md5
+-rw-r--r--    1 ftp      ftp            87 Feb 24 02:00 in-addr.arpa.sha256
+-rw-r--r--    1 ftp      ftp        228019 Feb 24 02:00 in-addr.arpa.zone
+-rw-r--r--    1 ftp      ftp         90371 Feb 24 02:00 in-addr.arpa.zone.gz
+-rw-r--r--    1 ftp      ftp            60 Feb 24 02:00 in-addr.arpa.zone.gz.md5
+-rw-r--r--    1 ftp      ftp            95 Feb 24 02:00 in-addr.arpa.zone.gz.sha256
+-rw-r--r--    1 ftp      ftp            57 Feb 24 02:00 in-addr.arpa.zone.md5
+-rw-r--r--    1 ftp      ftp            92 Feb 24 02:00 in-addr.arpa.zone.sha256
+-rw-r--r--    1 ftp      ftp         60746 Feb 24 02:00 ip6.arpa
+-rw-r--r--    1 ftp      ftp         24315 Feb 24 02:00 ip6.arpa.gz
+-rw-r--r--    1 ftp      ftp            51 Feb 24 02:00 ip6.arpa.gz.md5
+-rw-r--r--    1 ftp      ftp            86 Feb 24 02:00 ip6.arpa.gz.sha256
+-rw-r--r--    1 ftp      ftp            48 Feb 24 02:00 ip6.arpa.md5
+-rw-r--r--    1 ftp      ftp            83 Feb 24 02:00 ip6.arpa.sha256
+-rw-r--r--    1 ftp      ftp         60746 Feb 24 02:00 ip6.arpa.zone
+-rw-r--r--    1 ftp      ftp         24315 Feb 24 02:00 ip6.arpa.zone.gz
+-rw-r--r--    1 ftp      ftp            56 Feb 24 02:00 ip6.arpa.zone.gz.md5
+-rw-r--r--    1 ftp      ftp            91 Feb 24 02:00 ip6.arpa.zone.gz.sha256
+-rw-r--r--    1 ftp      ftp            53 Feb 24 02:00 ip6.arpa.zone.md5
+-rw-r--r--    1 ftp      ftp            88 Feb 24 02:00 ip6.arpa.zone.sha256
+-rw-r--r--    1 ftp      ftp            21 Feb 24 02:00 last_update.txt
+-rw-r--r--    1 ftp      ftp          3291 Oct 20 19:35 named.cache
+-rw-r--r--    1 ftp      ftp            33 Oct 20 19:35 named.cache.md5
+-rw-r--r--    1 ftp      ftp            72 Oct 20 19:35 named.cache.sig
+-rw-r--r--    1 ftp      ftp          3291 Oct 20 19:35 named.root
+-rw-r--r--    1 ftp      ftp            33 Oct 20 19:35 named.root.md5
+-rw-r--r--    1 ftp      ftp            72 Oct 20 19:35 named.root.sig
+-rw-r--r--    1 ftp      ftp          2110 Oct 20 19:35 root-servers.net.zone
+-rw-r--r--    1 ftp      ftp           574 Oct 20 19:35 root-servers.net.zone.gz
+-rw-r--r--    1 ftp      ftp            33 Oct 20 19:35 root-servers.net.zone.gz.md5
+-rw-r--r--    1 ftp      ftp            72 Oct 20 19:35 root-servers.net.zone.gz.sig
+-rw-r--r--    1 ftp      ftp       2230023 Feb 23 20:33 root.zone
+-rw-r--r--    1 ftp      ftp       1047728 Feb 23 20:33 root.zone.gz
+-rw-r--r--    1 ftp      ftp            33 Feb 23 20:33 root.zone.gz.md5
+-rw-r--r--    1 ftp      ftp            72 Feb 23 20:33 root.zone.gz.sig
+-rw-r--r--    1 ftp      ftp            33 Feb 23 20:33 root.zone.md5
+-rw-r--r--    1 ftp      ftp            72 Feb 23 20:33 root.zone.sig
+2017-02-24 10:06:07 (224 KB/s) - ‘./domain/.listing’ saved [3930]
+
+The sizes do not match (local 3930) -- retrieving.
+
+--2017-02-24 10:06:07--  ftp://ftp.internic.net/domain/.listing
+           => ‘./domain/.listing’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,41,89)
+--> RETR .listing
+
+150 Opening BINARY mode data connection for .listing (1829 bytes).
+Length: 1829 (1.8K)
+
+     0K .                                                     100% 13.7M=0s
+
+226 Transfer complete.
+2017-02-24 10:06:08 (13.7 MB/s) - ‘./domain/.listing’ saved [1829]
+
+Remote file no newer than local file ‘./domain/INTERNIC_ROOT_ZONE.signatures’ -- not retrieving.
+Remote file no newer than local file ‘./domain/INTERNIC_ROOT_ZONE.signatures.asc’ -- not retrieving.
+Remote file no newer than local file ‘./domain/arpa.zone’ -- not retrieving.
+Remote file no newer than local file ‘./domain/arpa.zone.gz’ -- not retrieving.
+Remote file no newer than local file ‘./domain/arpa.zone.gz.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/arpa.zone.gz.sig’ -- not retrieving.
+Remote file no newer than local file ‘./domain/db.cache’ -- not retrieving.
+Remote file no newer than local file ‘./domain/db.cache.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/db.cache.sig’ -- not retrieving.
+Remote file no newer than local file ‘./domain/in-addr.arpa’ -- not retrieving.
+Remote file no newer than local file ‘./domain/in-addr.arpa.gz’ -- not retrieving.
+Remote file no newer than local file ‘./domain/in-addr.arpa.gz.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/in-addr.arpa.gz.sha256’ -- not retrieving.
+Remote file no newer than local file ‘./domain/in-addr.arpa.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/in-addr.arpa.sha256’ -- not retrieving.
+Remote file no newer than local file ‘./domain/in-addr.arpa.zone’ -- not retrieving.
+Remote file no newer than local file ‘./domain/in-addr.arpa.zone.gz’ -- not retrieving.
+Remote file no newer than local file ‘./domain/in-addr.arpa.zone.gz.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/in-addr.arpa.zone.gz.sha256’ -- not retrieving.
+Remote file no newer than local file ‘./domain/in-addr.arpa.zone.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/in-addr.arpa.zone.sha256’ -- not retrieving.
+Remote file no newer than local file ‘./domain/ip6.arpa’ -- not retrieving.
+Remote file no newer than local file ‘./domain/ip6.arpa.gz’ -- not retrieving.
+Remote file no newer than local file ‘./domain/ip6.arpa.gz.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/ip6.arpa.gz.sha256’ -- not retrieving.
+Remote file no newer than local file ‘./domain/ip6.arpa.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/ip6.arpa.sha256’ -- not retrieving.
+Remote file no newer than local file ‘./domain/ip6.arpa.zone’ -- not retrieving.
+Remote file no newer than local file ‘./domain/ip6.arpa.zone.gz’ -- not retrieving.
+Remote file no newer than local file ‘./domain/ip6.arpa.zone.gz.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/ip6.arpa.zone.gz.sha256’ -- not retrieving.
+Remote file no newer than local file ‘./domain/ip6.arpa.zone.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/ip6.arpa.zone.sha256’ -- not retrieving.
+Remote file no newer than local file ‘./domain/last_update.txt’ -- not retrieving.
+Remote file no newer than local file ‘./domain/named.cache’ -- not retrieving.
+Remote file no newer than local file ‘./domain/named.cache.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/named.cache.sig’ -- not retrieving.
+Remote file no newer than local file ‘./domain/named.root’ -- not retrieving.
+Remote file no newer than local file ‘./domain/named.root.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/named.root.sig’ -- not retrieving.
+Remote file no newer than local file ‘./domain/root-servers.net.zone’ -- not retrieving.
+Remote file no newer than local file ‘./domain/root-servers.net.zone.gz’ -- not retrieving.
+Remote file no newer than local file ‘./domain/root-servers.net.zone.gz.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/root-servers.net.zone.gz.sig’ -- not retrieving.
+Remote file no newer than local file ‘./domain/root.zone’ -- not retrieving.
+Remote file no newer than local file ‘./domain/root.zone.gz’ -- not retrieving.
+Remote file no newer than local file ‘./domain/root.zone.gz.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/root.zone.gz.sig’ -- not retrieving.
+Remote file no newer than local file ‘./domain/root.zone.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/root.zone.sig’ -- not retrieving.
+FINISHED --2017-02-24 10:06:08--
+Total wall clock time: 7.0s
+Downloaded: 3 files, 5.8K in 0.03s (220 KB/s)

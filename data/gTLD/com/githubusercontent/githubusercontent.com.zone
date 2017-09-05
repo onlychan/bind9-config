@@ -1,0 +1,24 @@
+$TTL    86400
+githubusercontent.com. 900 IN NS ns-1411.awsdns-48.org.
+githubusercontent.com. 900 IN NS ns-181.awsdns-22.com.
+githubusercontent.com. 900 IN NS ns-1867.awsdns-41.co.uk.
+githubusercontent.com. 900 IN NS ns-596.awsdns-10.net.
+githubusercontent.com. 900 IN SOA ns-1411.awsdns-48.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+githubusercontent.com. 30 IN TXT "globalsign-domain-verification=2wiwCKYW7kQ6LJntfIcdi5EG56lUlQIRj_VGJnEEKb"
+githubusercontent.com. 30 IN TXT "v=spf1 a -all"
+
+
+raw                        IN    CNAME       raw.github.com.
+camo                       IN    CNAME       raw
+gist                       IN    CNAME       raw
+cloud                      IN    CNAME       raw
+avatars0                   IN    CNAME       raw
+avatars1                   IN    CNAME       raw
+avatars2                   IN    CNAME       raw
+avatars3                   IN    CNAME       raw
+avatars4                   IN    CNAME       raw
+avatars5                   IN    CNAME       raw
+avatars6                   IN    CNAME       raw
+avatars7                   IN    CNAME       raw
+avatars8                   IN    CNAME       raw
+avatars9                   IN    CNAME       raw

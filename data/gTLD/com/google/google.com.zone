@@ -1,0 +1,101 @@
+$TTL    86400
+google.com. 300 IN A 74.125.21.101
+google.com. 300 IN A 74.125.21.139
+google.com. 300 IN A 74.125.21.113
+google.com. 300 IN A 74.125.21.100
+google.com. 300 IN A 74.125.21.138
+google.com. 300 IN A 74.125.21.102
+google.com. 300 IN AAAA 2607:f8b0:4002:c06::8b
+google.com. 86400 IN CAA 0 issue "symantec.com"
+google.com. 600 IN MX 30 alt2.aspmx.l.google.com.
+google.com. 600 IN MX 40 alt3.aspmx.l.google.com.
+google.com. 600 IN MX 20 alt1.aspmx.l.google.com.
+google.com. 600 IN MX 10 aspmx.l.google.com.
+google.com. 600 IN MX 50 alt4.aspmx.l.google.com.
+google.com. 345600 IN NS ns3.google.com.
+google.com. 345600 IN NS ns4.google.com.
+google.com. 345600 IN NS ns2.google.com.
+google.com. 345600 IN NS ns1.google.com.
+google.com. 3600 IN TXT "v=spf1 include:_spf.google.com ~all"
+google.com. 60 IN SOA ns3.google.com. dns-admin.google.com. 144654451 900 900 1800 60
+
+ns1.google.com.		345600 IN A 216.239.32.10
+ns2.google.com.		345600 IN A 216.239.34.10
+ns3.google.com.		345600 IN A 216.239.36.10
+ns4.google.com.		345600 IN A 216.239.38.10
+aspmx.l.google.com.	293 IN A 74.125.198.26
+aspmx.l.google.com.	293 IN A 74.125.198.27
+aspmx.l.google.com.	293 IN AAAA 2607:f8b0:4003:c05::1a
+aspmx2.googlemail.com.	293 IN A 173.194.219.26
+aspmx2.googlemail.com.	293 IN A 173.194.219.27
+aspmx2.googlemail.com.	293 IN AAAA 2607:f8b0:4002:c03::1b
+aspmx3.googlemail.com.	293 IN A 173.194.175.26
+aspmx3.googlemail.com.	293 IN A 173.194.175.27
+aspmx3.googlemail.com.	293 IN AAAA 2607:f8b0:400d:c0b::1a
+aspmx4.googlemail.com.	293 IN A 74.125.141.26
+aspmx4.googlemail.com.	293 IN A 74.125.141.27
+aspmx4.googlemail.com.	293 IN AAAA 2607:f8b0:400c:c06::1a
+aspmx5.googlemail.com.	293 IN A 64.233.190.26
+aspmx5.googlemail.com.	293 IN A 64.233.190.27
+aspmx5.googlemail.com.	293 IN AAAA 2800:3f0:4003:c01::1b
+alt1.aspmx.l.google.com. 293 IN	A 173.194.219.26
+alt1.aspmx.l.google.com. 293 IN	A 173.194.219.27
+alt1.aspmx.l.google.com. 293 IN	AAAA 2607:f8b0:4002:c03::1b
+alt2.aspmx.l.google.com. 293 IN	A 173.194.175.26
+alt2.aspmx.l.google.com. 293 IN	A 173.194.175.27
+alt2.aspmx.l.google.com. 293 IN	AAAA 2607:f8b0:400d:c0b::1a
+alt3.aspmx.l.google.com. 293 IN	A 74.125.141.26
+alt3.aspmx.l.google.com. 293 IN	A 74.125.141.27
+alt3.aspmx.l.google.com. 293 IN	AAAA 2607:f8b0:400c:c06::1a
+alt4.aspmx.l.google.com. 293 IN	A 64.233.190.26
+alt4.aspmx.l.google.com. 293 IN	A 64.233.190.27
+alt4.aspmx.l.google.com. 293 IN	AAAA 2800:3f0:4003:c01::1a
+alt5.aspmx.l.google.com. 293 IN	A 74.125.24.26
+alt5.aspmx.l.google.com. 293 IN	A 74.125.24.27
+alt5.aspmx.l.google.com. 293 IN	AAAA 2a00:1450:400b:c02::1b
+alt6.aspmx.l.google.com. 293 IN	A 74.125.140.26
+alt6.aspmx.l.google.com. 293 IN	A 74.125.140.27
+alt6.aspmx.l.google.com. 293 IN	AAAA 2a00:1450:400c:c08::1b
+alt7.aspmx.l.google.com. 293 IN	A 173.194.69.26
+alt7.aspmx.l.google.com. 293 IN	A 173.194.69.27
+alt7.aspmx.l.google.com. 293 IN	AAAA 2a00:1450:4013:c04::1b
+alt8.aspmx.l.google.com. 293 IN	A 74.125.131.26
+alt8.aspmx.l.google.com. 293 IN	A 74.125.131.27
+alt8.aspmx.l.google.com. 293 IN	AAAA 2a00:1450:4010:c0e::1b
+alt9.aspmx.l.google.com. 293 IN	A 64.233.187.26
+alt9.aspmx.l.google.com. 293 IN	A 64.233.187.27
+alt9.aspmx.l.google.com. 293 IN	AAAA 2404:6800:4008:c05::1b
+gmr-smtp-in.l.google.com. 300 IN A 74.125.198.14
+gmr-smtp-in.l.google.com. 300 IN AAAA 2607:f8b0:4003:c05::e
+alt1.gmr-smtp-in.l.google.com. 300 IN A	173.194.219.14
+alt1.gmr-smtp-in.l.google.com. 300 IN AAAA 2607:f8b0:4002:c03::e
+alt2.gmr-smtp-in.l.google.com. 300 IN A	173.194.175.14
+alt2.gmr-smtp-in.l.google.com. 300 IN AAAA 2607:f8b0:400d:c0b::e
+alt3.gmr-smtp-in.l.google.com. 300 IN A	74.125.141.14
+alt3.gmr-smtp-in.l.google.com. 300 IN AAAA 2607:f8b0:400c:c06::e
+alt4.gmr-smtp-in.l.google.com. 300 IN A	64.233.190.14
+alt4.gmr-smtp-in.l.google.com. 300 IN AAAA 2800:3f0:4003:c01::e
+
+
+
+
+google-public-dns-a                    IN    A       8.8.8.8
+google-public-dns-b                    IN    A       8.8.4.4
+dl.google.com.                         IN    CNAME   cname.google.cn.
+dl.l.google.com.                       IN    CNAME   cname.google.cn.
+dl-ssl.google.com.                     IN    CNAME   cname.google.cn.
+kh.google.com.                         IN    CNAME   cname.google.cn.
+kh.l.google.com.                       IN    CNAME   cname.google.cn.
+khm.google.com.                        IN    CNAME   cname.google.cn.
+khm0.google.com.                       IN    CNAME   cname.google.cn.
+khm1.google.com.                       IN    CNAME   cname.google.cn.
+khm2.google.com.                       IN    CNAME   cname.google.cn.
+khm3.google.com.                       IN    CNAME   cname.google.cn.
+khm.l.google.com.                      IN    CNAME   cname.google.cn.
+khmdb.google.com.                      IN    CNAME   cname.google.cn.
+@                                      IN    A       64.233.162.84
+@                                      IN    AAAA    2404:6800:4008:c02::11
+cname.google.com.                      IN    A       64.233.163.99
+cname.google.com.                      IN    AAAA    2404:6800:4008:c02::11
+*                                      IN    CNAME   cname.google.com.
+

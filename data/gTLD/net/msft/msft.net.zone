@@ -1,0 +1,15 @@
+$TTL    86400
+msft.net. 900 IN NS ns2.msft.net.
+msft.net. 900 IN NS ns3.msft.net.
+msft.net. 900 IN NS ns4.msft.net.
+msft.net. 900 IN NS ns1.msft.net.
+msft.net. 900 IN SOA ns1.msft.net. msnhst.microsoft.com. 2016121501 7200 900 2419200 3600
+	
+ns1.msft.net.		300 IN A 208.84.0.53
+ns1.msft.net.		300 IN AAAA 2620:0:30::53
+ns2.msft.net.		172800 IN A 208.84.2.53
+ns2.msft.net.		172800 IN AAAA 2620:0:32::53
+ns3.msft.net.		300 IN A 193.221.113.53
+ns3.msft.net.		300 IN AAAA 2620:0:34::53
+ns4.msft.net.		172800 IN A 208.76.45.53
+ns4.msft.net.		172800 IN AAAA 2620:0:37::53

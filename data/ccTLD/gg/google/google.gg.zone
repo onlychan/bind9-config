@@ -1,0 +1,21 @@
+$TTL    86400
+google.gg. 300 IN A 173.194.219.99
+google.gg. 300 IN A 173.194.219.103
+google.gg. 300 IN A 173.194.219.147
+google.gg. 300 IN A 173.194.219.104
+google.gg. 300 IN A 173.194.219.106
+google.gg. 300 IN A 173.194.219.105
+google.gg. 300 IN AAAA 2607:f8b0:4002:c03::6a
+google.gg. 345600 IN NS ns3.google.com.
+google.gg. 345600 IN NS ns1.google.com.
+google.gg. 345600 IN NS ns4.google.com.
+google.gg. 345600 IN NS ns2.google.com.
+google.gg. 60 IN SOA ns3.google.com. dns-admin.google.com. 144663733 900 900 1800 60
+google.gg. 300 IN TXT "v=spf1 -all"
+google.gg. 300 IN MX 0 .
+	
+@                        IN    A       64.233.162.84
+@                        IN    AAAA    2404:6800:4008:c02::11
+www                      IN    CNAME   cname.google.com.
+accounts                 IN    CNAME   cname.google.com.
+*                        IN    CNAME   cname.google.com.

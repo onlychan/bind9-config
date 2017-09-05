@@ -1,0 +1,26 @@
+$TTL    86400
+armorgames.com. 300 IN A 104.20.4.17
+armorgames.com. 300 IN A 104.20.5.17
+armorgames.com. 300 IN AAAA 2400:cb00:2048:1::6814:411
+armorgames.com. 300 IN AAAA 2400:cb00:2048:1::6814:511
+armorgames.com. 300 IN MX 10 aspmx3.googlemail.com.
+armorgames.com. 300 IN MX 10 aspmx2.googlemail.com.
+armorgames.com. 300 IN MX 5 alt1.aspmx.l.google.com.
+armorgames.com. 300 IN MX 10 aspmx4.googlemail.com.
+armorgames.com. 300 IN MX 10 aspmx5.googlemail.com.
+armorgames.com. 300 IN MX 5 alt2.aspmx.l.google.com.
+armorgames.com. 300 IN MX 1 aspmx.l.google.com.
+armorgames.com. 86400 IN NS lila.ns.cloudflare.com.
+armorgames.com. 86400 IN NS dale.ns.cloudflare.com.
+armorgames.com. 86400 IN SOA dale.ns.cloudflare.com. dns.cloudflare.com. 2023409321 10000 2400 604800 3600
+armorgames.com. 300 IN TXT "v=spf1 include:sendgrid.net ip4:69.160.54.162/31 ip4:69.160.54.164/30 ip4:69.160.54.168/30 ip4:69.160.54.172/31 ip4:69.160.54.174/32 ~all"
+armorgames.com. 300 IN TXT "v=spf1 include:mail.zendesk.com ?all"
+
+
+
+cname                                  IN    A       93.184.220.39
+cache                                  IN    CNAME   cname
+gamemedia                              IN    CNAME   cname
+armatars                               IN    CNAME   cname
+agi                                    IN    CNAME   cname
+*                                      IN    CNAME   cname

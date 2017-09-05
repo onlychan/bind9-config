@@ -1,0 +1,20 @@
+$TTL    86400
+bit.ly. 3600 IN A 67.199.248.11
+bit.ly. 3600 IN A 67.199.248.10
+bit.ly. 3600 IN SOA ns1.p26.dynect.net. hostmaster.bit.ly. 1212581614 3600 600 604800 3600
+bit.ly. 86400 IN NS ns3.p35.dynect.net.
+bit.ly. 86400 IN NS ns4.p35.dynect.net.
+bit.ly. 86400 IN NS ns2.p35.dynect.net.
+bit.ly. 86400 IN NS ns1.p35.dynect.net.
+bit.ly. 86400 IN MX 20 ALT2.ASPMX.L.GOOGLE.COM.
+bit.ly. 86400 IN MX 30 ASPMX2.GOOGLEMAIL.COM.
+bit.ly. 86400 IN MX 20 ALT1.ASPMX.L.GOOGLE.COM.
+bit.ly. 86400 IN MX 10 ASPMX.L.GOOGLE.COM.
+bit.ly. 86400 IN MX 30 ASPMX3.GOOGLEMAIL.COM.
+bit.ly. 3600 IN TXT "2205ECE8B9"
+bit.ly. 3600 IN TXT "google-site-verification: zhEwFAQvtUWYInQtt81loDiZmomsEmkAbuRsSSxk1YI"
+bit.ly. 3600 IN TXT "yandex-verification: 41b3ec866726729d"
+bit.ly. 3600 IN TXT "v=spf1 include:mktomail.com include:_spf.google.com include:_spf.salesforce.com include:mailgun.org -all"
+
+ns            IN    A       69.58.188.39
+@             IN    A       69.58.188.39

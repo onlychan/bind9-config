@@ -1,0 +1,15 @@
+$TTL    86400
+twitpic.com. 86400 IN SOA ns1.p21.dynect.net. support.twitpic.com. 1050 3600 600 604800 3600
+twitpic.com. 86400 IN NS ns4.p21.dynect.net.
+twitpic.com. 86400 IN NS ns2.p21.dynect.net.
+twitpic.com. 86400 IN NS ns3.p21.dynect.net.
+twitpic.com. 86400 IN NS ns1.p21.dynect.net.
+twitpic.com. 300 IN A 50.23.200.239
+twitpic.com. 300 IN A 96.127.160.130
+twitpic.com. 300 IN A 50.23.200.230
+twitpic.com. 300 IN A 173.236.110.98
+twitpic.com. 300 IN A 50.23.200.238
+twitpic.com. 300 IN MX 10 mx.twitpic.com.
+
+ns            IN    A       96.127.160.130
+@             IN    A       96.127.160.130

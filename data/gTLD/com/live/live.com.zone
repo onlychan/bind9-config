@@ -1,0 +1,34 @@
+$TTL    86400
+live.com. 3600 IN A 65.55.118.92
+live.com. 172800 IN NS ns4.msft.net.
+live.com. 172800 IN NS ns1.msft.net.
+live.com. 172800 IN NS ns2.msft.net.
+live.com. 172800 IN NS ns3.msft.net.
+live.com. 86400 IN SOA ns1.msft.net. msnhst.microsoft.com. 2017011401 7200 900 2419200 3600
+live.com. 3600 IN MX 5 mx4.hotmail.com.
+live.com. 3600 IN MX 5 mx1.hotmail.com.
+live.com. 3600 IN MX 5 mx2.hotmail.com.
+live.com. 3600 IN MX 5 mx3.hotmail.com.
+live.com. 3600 IN TXT "google-site-verification=DVGpQUbbQCBRPGlmWiTVUMyQGfLPlEVw6Z4pm39AAj4"
+live.com. 900 IN TXT "google-site-verification=DVGpQUbbQCBRPGlmWiTVUMyQGfLPlEVw6Z4pm39AAj4"
+live.com. 900 IN TXT "v=spf1 include:Spf-a.hotmail.com include:Spf-b.hotmail.com include:Spf-c.hotmail.com include:Spf-d.hotmail.com include:_spf-ssg-a.microsoft.com include:Spf.protection.outlook.com ~all"
+
+
+a.resolvers.Level3.net.              IN    A       4.2.2.1
+b.resolvers.Level3.net.              IN    A       4.2.2.2
+
+onedrive                             IN    A       204.79.197.217
+onedrive                             IN    A       134.170.108.154
+skyapi.onedrive                      IN    A       134.170.107.48
+skyapi.onedrive                      IN    A       134.170.111.96
+account                              IN    A       65.54.187.24
+login                                IN    A       131.253.61.66
+people                               IN    A       134.170.30.15
+profile                              IN    A       134.170.30.15
+storage                              IN    A       134.170.104.168
+nhuhga.dm2301.livefilestore.com.     IN    A       204.79.197.213
+
+
+
+
+

@@ -1,0 +1,18 @@
+$TTL    86400
+t.co. 293 IN SOA ns1.p26.dynect.net. ops.twitter.com. 1513 3600 600 604800 60
+t.co. 30 IN A 199.16.156.75
+t.co. 30 IN A 199.16.156.11
+t.co. 30 IN A 199.59.148.12
+t.co. 30 IN A 199.59.150.44
+t.co. 293 IN TXT "v=spf1 -all"
+t.co. 13999 IN NS d01-01.ns.twtrdns.net.
+t.co. 13999 IN NS ns2.p34.dynect.net.
+t.co. 13999 IN NS ns1.p34.dynect.net.
+t.co. 13999 IN NS ns3.p34.dynect.net.
+t.co. 13999 IN NS r01-01.ns.twtrdns.net.
+t.co. 13999 IN NS r01-02.ns.twtrdns.net.
+t.co. 13999 IN NS d01-02.ns.twtrdns.net.
+t.co. 13999 IN NS ns4.p34.dynect.net.
+
+ns            IN    A       199.16.158.183
+@             IN    A       199.16.158.183

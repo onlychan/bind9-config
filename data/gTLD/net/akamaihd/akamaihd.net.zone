@@ -1,0 +1,197 @@
+$TTL    86400
+akamaihd.net. 90000 IN TXT "This" "is" "not" "the" "nameserver" "you" "are" "looking" "for."
+akamaihd.net. 90000 IN SOA internal.akamaistream.net. hostmaster.akamai.com. 1484628158 90000 90000 90000 180
+akamaihd.net. 90000 IN NS ns6-32.akamaistream.net.
+akamaihd.net. 90000 IN NS ns3-32.akamaistream.net.
+akamaihd.net. 90000 IN NS ns2-32.akamaistream.net.
+akamaihd.net. 90000 IN NS p8.akamaistream.net.
+akamaihd.net. 90000 IN NS p7.akamaistream.net.
+akamaihd.net. 90000 IN NS p6.akamaistream.net.
+akamaihd.net. 90000 IN NS p5.akamaistream.net.
+akamaihd.net. 90000 IN NS p4.akamaistream.net.
+akamaihd.net. 90000 IN NS ax3.akamaistream.net.
+akamaihd.net. 90000 IN NS ax2.akamaistream.net.
+akamaihd.net. 90000 IN NS ax1.akamaistream.net.
+akamaihd.net. 90000 IN NS ax0.akamaistream.net.
+akamaihd.net. 90000 IN MX 200 scooter.west.akamai.com.
+akamaihd.net. 90000 IN MX 100 mx2.akamai.com.
+akamaihd.net. 90000 IN MX 100 mx1.akamai.com.
+    
+instagramstatic-a                               IN     A        23.63.99.232
+igcdn-photos-a-a                                IN     A        77.67.11.48
+igcdn-photos-b-a                                IN     A        77.67.11.35
+igcdn-photos-c-a                                IN     A        77.67.4.73
+igcdn-photos-d-a                                IN     A        77.67.4.73
+igcdn-photos-e-a                                IN     A        184.51.148.34
+igcdn-photos-f-a                                IN     A        184.51.148.17
+igcdn-photos-g-a                                IN     A        23.63.99.89
+igcdn-photos-h-a                                IN     A        23.63.99.40
+
+instagramimages-a                               IN     A        60.254.131.69
+instagramstatic-a                               IN     A        60.254.131.69
+igcdn-videos-a-0-a                              IN     CNAME    instagramimages-a
+igcdn-videos-a-1-a                              IN     CNAME    instagramimages-a
+igcdn-videos-a-2-a                              IN     CNAME    instagramimages-a
+igcdn-videos-a-3-a                              IN     CNAME    instagramimages-a
+igcdn-videos-a-4-a                              IN     CNAME    instagramimages-a
+igcdn-videos-a-5-a                              IN     CNAME    instagramimages-a
+igcdn-videos-a-6-a                              IN     CNAME    instagramimages-a
+igcdn-videos-a-7-a                              IN     CNAME    instagramimages-a
+igcdn-videos-a-8-a                              IN     CNAME    instagramimages-a
+igcdn-videos-a-9-a                              IN     CNAME    instagramimages-a
+igcdn-videos-a-10-a                             IN     CNAME    instagramimages-a
+igcdn-videos-a-11-a                             IN     CNAME    instagramimages-a
+igcdn-videos-a-12-a                             IN     CNAME    instagramimages-a
+igcdn-videos-a-13-a                             IN     CNAME    instagramimages-a
+igcdn-videos-a-14-a                             IN     CNAME    instagramimages-a
+igcdn-videos-a-15-a                             IN     CNAME    instagramimages-a
+igcdn-videos-a-16-a                             IN     CNAME    instagramimages-a
+igcdn-videos-a-17-a                             IN     CNAME    instagramimages-a
+igcdn-videos-a-18-a                             IN     CNAME    instagramimages-a
+igcdn-videos-a-19-a                             IN     CNAME    instagramimages-a
+igcdn-videos-b-0-a                              IN     CNAME    instagramimages-a
+igcdn-videos-b-1-a                              IN     CNAME    instagramimages-a
+igcdn-videos-b-2-a                              IN     CNAME    instagramimages-a
+igcdn-videos-b-3-a                              IN     CNAME    instagramimages-a
+igcdn-videos-b-4-a                              IN     CNAME    instagramimages-a
+igcdn-videos-b-5-a                              IN     CNAME    instagramimages-a
+igcdn-videos-b-6-a                              IN     CNAME    instagramimages-a
+igcdn-videos-b-7-a                              IN     CNAME    instagramimages-a
+igcdn-videos-b-8-a                              IN     CNAME    instagramimages-a
+igcdn-videos-b-9-a                              IN     CNAME    instagramimages-a
+igcdn-videos-b-10-a                             IN     CNAME    instagramimages-a
+igcdn-videos-b-11-a                             IN     CNAME    instagramimages-a
+igcdn-videos-b-12-a                             IN     CNAME    instagramimages-a
+igcdn-videos-b-13-a                             IN     CNAME    instagramimages-a
+igcdn-videos-b-14-a                             IN     CNAME    instagramimages-a
+igcdn-videos-b-15-a                             IN     CNAME    instagramimages-a
+igcdn-videos-b-16-a                             IN     CNAME    instagramimages-a
+igcdn-videos-b-17-a                             IN     CNAME    instagramimages-a
+igcdn-videos-b-18-a                             IN     CNAME    instagramimages-a
+igcdn-videos-b-19-a                             IN     CNAME    instagramimages-a
+igcdn-videos-c-0-a                              IN     CNAME    instagramimages-a
+igcdn-videos-c-1-a                              IN     CNAME    instagramimages-a
+igcdn-videos-c-2-a                              IN     CNAME    instagramimages-a
+igcdn-videos-c-3-a                              IN     CNAME    instagramimages-a
+igcdn-videos-c-4-a                              IN     CNAME    instagramimages-a
+igcdn-videos-c-5-a                              IN     CNAME    instagramimages-a
+igcdn-videos-c-6-a                              IN     CNAME    instagramimages-a
+igcdn-videos-c-7-a                              IN     CNAME    instagramimages-a
+igcdn-videos-c-8-a                              IN     CNAME    instagramimages-a
+igcdn-videos-c-9-a                              IN     CNAME    instagramimages-a
+igcdn-videos-c-10-a                             IN     CNAME    instagramimages-a
+igcdn-videos-c-11-a                             IN     CNAME    instagramimages-a
+igcdn-videos-c-12-a                             IN     CNAME    instagramimages-a
+igcdn-videos-c-13-a                             IN     CNAME    instagramimages-a
+igcdn-videos-c-14-a                             IN     CNAME    instagramimages-a
+igcdn-videos-c-15-a                             IN     CNAME    instagramimages-a
+igcdn-videos-c-16-a                             IN     CNAME    instagramimages-a
+igcdn-videos-c-17-a                             IN     CNAME    instagramimages-a
+igcdn-videos-c-18-a                             IN     CNAME    instagramimages-a
+igcdn-videos-c-19-a                             IN     CNAME    instagramimages-a
+igcdn-videos-d-0-a                              IN     CNAME    instagramimages-a
+igcdn-videos-d-1-a                              IN     CNAME    instagramimages-a
+igcdn-videos-d-2-a                              IN     CNAME    instagramimages-a
+igcdn-videos-d-3-a                              IN     CNAME    instagramimages-a
+igcdn-videos-d-4-a                              IN     CNAME    instagramimages-a
+igcdn-videos-d-5-a                              IN     CNAME    instagramimages-a
+igcdn-videos-d-6-a                              IN     CNAME    instagramimages-a
+igcdn-videos-d-7-a                              IN     CNAME    instagramimages-a
+igcdn-videos-d-8-a                              IN     CNAME    instagramimages-a
+igcdn-videos-d-9-a                              IN     CNAME    instagramimages-a
+igcdn-videos-d-10-a                             IN     CNAME    instagramimages-a
+igcdn-videos-d-11-a                             IN     CNAME    instagramimages-a
+igcdn-videos-d-12-a                             IN     CNAME    instagramimages-a
+igcdn-videos-d-13-a                             IN     CNAME    instagramimages-a
+igcdn-videos-d-14-a                             IN     CNAME    instagramimages-a
+igcdn-videos-d-15-a                             IN     CNAME    instagramimages-a
+igcdn-videos-d-16-a                             IN     CNAME    instagramimages-a
+igcdn-videos-d-17-a                             IN     CNAME    instagramimages-a
+igcdn-videos-d-18-a                             IN     CNAME    instagramimages-a
+igcdn-videos-d-19-a                             IN     CNAME    instagramimages-a
+igcdn-videos-e-0-a                              IN     CNAME    instagramimages-a
+igcdn-videos-e-1-a                              IN     CNAME    instagramimages-a
+igcdn-videos-e-2-a                              IN     CNAME    instagramimages-a
+igcdn-videos-e-3-a                              IN     CNAME    instagramimages-a
+igcdn-videos-e-4-a                              IN     CNAME    instagramimages-a
+igcdn-videos-e-5-a                              IN     CNAME    instagramimages-a
+igcdn-videos-e-6-a                              IN     CNAME    instagramimages-a
+igcdn-videos-e-7-a                              IN     CNAME    instagramimages-a
+igcdn-videos-e-8-a                              IN     CNAME    instagramimages-a
+igcdn-videos-e-9-a                              IN     CNAME    instagramimages-a
+igcdn-videos-e-10-a                             IN     CNAME    instagramimages-a
+igcdn-videos-e-11-a                             IN     CNAME    instagramimages-a
+igcdn-videos-e-12-a                             IN     CNAME    instagramimages-a
+igcdn-videos-e-13-a                             IN     CNAME    instagramimages-a
+igcdn-videos-e-14-a                             IN     CNAME    instagramimages-a
+igcdn-videos-e-15-a                             IN     CNAME    instagramimages-a
+igcdn-videos-e-16-a                             IN     CNAME    instagramimages-a
+igcdn-videos-e-17-a                             IN     CNAME    instagramimages-a
+igcdn-videos-e-18-a                             IN     CNAME    instagramimages-a
+igcdn-videos-e-19-a                             IN     CNAME    instagramimages-a
+igcdn-videos-f-0-a                              IN     CNAME    instagramimages-a
+igcdn-videos-f-1-a                              IN     CNAME    instagramimages-a
+igcdn-videos-f-2-a                              IN     CNAME    instagramimages-a
+igcdn-videos-f-3-a                              IN     CNAME    instagramimages-a
+igcdn-videos-f-4-a                              IN     CNAME    instagramimages-a
+igcdn-videos-f-5-a                              IN     CNAME    instagramimages-a
+igcdn-videos-f-6-a                              IN     CNAME    instagramimages-a
+igcdn-videos-f-7-a                              IN     CNAME    instagramimages-a
+igcdn-videos-f-8-a                              IN     CNAME    instagramimages-a
+igcdn-videos-f-9-a                              IN     CNAME    instagramimages-a
+igcdn-videos-f-10-a                             IN     CNAME    instagramimages-a
+igcdn-videos-f-11-a                             IN     CNAME    instagramimages-a
+igcdn-videos-f-12-a                             IN     CNAME    instagramimages-a
+igcdn-videos-f-13-a                             IN     CNAME    instagramimages-a
+igcdn-videos-f-14-a                             IN     CNAME    instagramimages-a
+igcdn-videos-f-15-a                             IN     CNAME    instagramimages-a
+igcdn-videos-f-16-a                             IN     CNAME    instagramimages-a
+igcdn-videos-f-17-a                             IN     CNAME    instagramimages-a
+igcdn-videos-f-18-a                             IN     CNAME    instagramimages-a
+igcdn-videos-f-19-a                             IN     CNAME    instagramimages-a
+igcdn-videos-g-0-a                              IN     CNAME    instagramimages-a
+igcdn-videos-g-1-a                              IN     CNAME    instagramimages-a
+igcdn-videos-g-2-a                              IN     CNAME    instagramimages-a
+igcdn-videos-g-3-a                              IN     CNAME    instagramimages-a
+igcdn-videos-g-4-a                              IN     CNAME    instagramimages-a
+igcdn-videos-g-5-a                              IN     CNAME    instagramimages-a
+igcdn-videos-g-6-a                              IN     CNAME    instagramimages-a
+igcdn-videos-g-7-a                              IN     CNAME    instagramimages-a
+igcdn-videos-g-8-a                              IN     CNAME    instagramimages-a
+igcdn-videos-g-9-a                              IN     CNAME    instagramimages-a
+igcdn-videos-g-10-a                             IN     CNAME    instagramimages-a
+igcdn-videos-g-11-a                             IN     CNAME    instagramimages-a
+igcdn-videos-g-12-a                             IN     CNAME    instagramimages-a
+igcdn-videos-g-13-a                             IN     CNAME    instagramimages-a
+igcdn-videos-g-14-a                             IN     CNAME    instagramimages-a
+igcdn-videos-g-15-a                             IN     CNAME    instagramimages-a
+igcdn-videos-g-16-a                             IN     CNAME    instagramimages-a
+igcdn-videos-g-17-a                             IN     CNAME    instagramimages-a
+igcdn-videos-g-18-a                             IN     CNAME    instagramimages-a
+igcdn-videos-g-19-a                             IN     CNAME    instagramimages-a
+igcdn-videos-h-0-a                              IN     CNAME    instagramimages-a
+igcdn-videos-h-1-a                              IN     CNAME    instagramimages-a
+igcdn-videos-h-2-a                              IN     CNAME    instagramimages-a
+igcdn-videos-h-3-a                              IN     CNAME    instagramimages-a
+igcdn-videos-h-4-a                              IN     CNAME    instagramimages-a
+igcdn-videos-h-5-a                              IN     CNAME    instagramimages-a
+igcdn-videos-h-6-a                              IN     CNAME    instagramimages-a
+igcdn-videos-h-7-a                              IN     CNAME    instagramimages-a
+igcdn-videos-h-8-a                              IN     CNAME    instagramimages-a
+igcdn-videos-h-9-a                              IN     CNAME    instagramimages-a
+igcdn-videos-h-10-a                             IN     CNAME    instagramimages-a
+igcdn-videos-h-11-a                             IN     CNAME    instagramimages-a
+igcdn-videos-h-12-a                             IN     CNAME    instagramimages-a
+igcdn-videos-h-13-a                             IN     CNAME    instagramimages-a
+igcdn-videos-h-14-a                             IN     CNAME    instagramimages-a
+igcdn-videos-h-15-a                             IN     CNAME    instagramimages-a
+igcdn-videos-h-16-a                             IN     CNAME    instagramimages-a
+igcdn-videos-h-17-a                             IN     CNAME    instagramimages-a
+igcdn-videos-h-18-a                             IN     CNAME    instagramimages-a
+igcdn-videos-h-19-a                             IN     CNAME    instagramimages-a
+
+
+
+
+
+

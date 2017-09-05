@@ -1,0 +1,38 @@
+$TTL    86400
+instagram.com. 60 IN A 52.206.156.195
+instagram.com. 60 IN A 52.202.158.49
+instagram.com. 60 IN A 52.21.37.241
+instagram.com. 60 IN A 52.205.141.231
+instagram.com. 60 IN A 52.202.219.253
+instagram.com. 60 IN A 52.201.7.142
+instagram.com. 60 IN A 52.206.110.107
+instagram.com. 60 IN A 52.202.183.204
+instagram.com. 300 IN MX 10 mxa-00082601.gslb.pphosted.com.
+instagram.com. 300 IN MX 10 mxb-00082601.gslb.pphosted.com.
+instagram.com. 172800 IN NS ns-1349.awsdns-40.org.
+instagram.com. 172800 IN NS ns-2016.awsdns-60.co.uk.
+instagram.com. 172800 IN NS ns-384.awsdns-48.com.
+instagram.com. 172800 IN NS ns-868.awsdns-44.net.
+instagram.com. 900 IN SOA ns-384.awsdns-48.com. awsdns-hostmaster.amazon.com. 3 7200 900 1209600 3600
+
+
+
+@                                      IN    A       107.23.238.172
+www                                    IN    CNAME   @
+i                                      IN    A       31.13.95.48
+api                                    IN    CNAME   i
+graph                                  IN    CNAME   i
+logger                                 IN    CNAME   i
+badges                                 IN    CNAME   i
+platform                               IN    CNAME   i
+maps                                   IN    CNAME   i
+images.ak                              IN    A       60.254.131.69
+static.ak                              IN    CNAME   images.ak
+help                                   IN    A       54.173.152.112
+blog                                   IN    A       66.6.43.22
+telegraph-ec2proxy                     IN    A       52.20.5.14
+
+
+*.ak                                   IN    CNAME   instagramimages-a.akamaihd.net.
+
+

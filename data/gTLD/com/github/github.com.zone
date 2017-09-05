@@ -1,0 +1,28 @@
+$TTL    86400
+github.com. 300 IN A 192.30.253.112
+github.com. 300 IN A 192.30.253.113
+github.com. 900 IN SOA ns-1707.awsdns-21.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+github.com. 3600 IN MX 1 aspmx.l.google.com.
+github.com. 3600 IN MX 10 alt3.aspmx.l.google.com.
+github.com. 3600 IN MX 10 alt4.aspmx.l.google.com.
+github.com. 3600 IN MX 5 alt1.aspmx.l.google.com.
+github.com. 3600 IN MX 5 alt2.aspmx.l.google.com.
+github.com. 900 IN NS ns-1283.awsdns-32.org.
+github.com. 900 IN NS ns-1707.awsdns-21.co.uk.
+github.com. 900 IN NS ns-421.awsdns-52.com.
+github.com. 900 IN NS ns-520.awsdns-01.net.
+github.com. 3600 IN TXT "docusign=087098e3-3d46-47b7-9b4e-8a23028154cd"
+github.com. 3600 IN TXT "v=spf1 ip4:192.30.252.0/22 include:_spf.google.com include:esp.github.com include:_spf.createsend.com include:mail.zendesk.com include:servers.mcsv.net ~all"
+
+
+
+@                        IN    A       192.30.253.113
+www                      IN    CNAME   @
+help                     IN    CNAME   raw
+nodeload                 IN    A       192.30.253.120
+raw                      IN    A       151.101.60.133
+documentcloud            IN    CNAME   raw
+gist                     IN    A       192.30.253.118
+developer                IN    CNAME   raw
+api                      IN    A       192.30.253.117
+assets-cdn               IN    CNAME   raw

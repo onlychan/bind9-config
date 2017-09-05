@@ -1,0 +1,50 @@
+$TTL    86400
+twitter.com. 1800 IN A 104.244.42.129
+twitter.com. 1800 IN A 104.244.42.1
+twitter.com. 600 IN MX 10 aspmx.l.google.com.
+twitter.com. 600 IN MX 30 ASPMX3.GOOGLEMAIL.COM.
+twitter.com. 600 IN MX 20 alt2.aspmx.l.google.com.
+twitter.com. 600 IN MX 20 alt1.aspmx.l.google.com.
+twitter.com. 600 IN MX 30 ASPMX2.GOOGLEMAIL.COM.
+twitter.com. 13999 IN NS r01-01.ns.twtrdns.net.
+twitter.com. 13999 IN NS ns4.p34.dynect.net.
+twitter.com. 13999 IN NS ns2.p34.dynect.net.
+twitter.com. 13999 IN NS r01-02.ns.twtrdns.net.
+twitter.com. 13999 IN NS ns1.p34.dynect.net.
+twitter.com. 13999 IN NS ns3.p34.dynect.net.
+twitter.com. 13999 IN NS d01-01.ns.twtrdns.net.
+twitter.com. 13999 IN NS d01-02.ns.twtrdns.net.
+twitter.com. 293 IN SOA ns1.p26.dynect.net. zone-admin.dyndns.com. 2007132142 3600 600 604800 60
+twitter.com. 300 IN TXT "google-site-verification=h6dJIv0HXjLOkGAotLAWEzvoi9SxqP4vjpx98vrCvvQ"
+twitter.com. 300 IN TXT "v=spf1 ip4:199.16.156.0/22 ip4:199.59.148.0/22 ip4:8.25.194.0/23 ip4:8.25.196.0/23 ip4:204.92.114.203 ip4:204.92.114.204/31 ip4:23.21.83.90 include:_spf.google.com include:_thirdparty.twitter.com -all"
+
+
+ns            IN    A       185.45.5.45   
+@             IN    A       185.45.5.45
+www           IN    A       185.45.5.45
+about         IN    A       185.45.5.45
+ads           IN    A       185.45.5.45
+api           IN    A       185.45.5.45
+blog          IN    A       185.45.5.45
+business      IN    A       185.45.5.45
+dev           IN    A       185.45.5.45
+media         IN    A       185.45.5.45
+mobile        IN    A       185.45.5.45
+pic           IN    A       185.45.5.45
+s             IN    A       185.45.5.45
+tdweb         IN    A       185.45.5.45
+stream        IN    A       185.45.5.45
+sitestream    IN    A       185.45.5.45
+betastream    IN    A       185.45.5.45
+pay           IN    A       185.45.5.45
+urls-real.api IN    A       185.45.5.45
+userstream    IN    A       185.45.5.45
+support       IN    A       185.45.5.45
+cdn.api       IN    A       185.45.5.45
+
+
+urls-real.api IN    A       199.16.158.83
+platform      IN    A       199.16.158.179
+status        IN    A       66.6.44.4
+upload        IN    A       199.16.158.84
+

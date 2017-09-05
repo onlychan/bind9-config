@@ -1,0 +1,15 @@
+$TTL    86400
+265.com. 300 IN A 74.125.196.160
+265.com. 300 IN AAAA 2607:f8b0:4002:c07::a0
+265.com. 345600 IN NS ns3.google.com.
+265.com. 345600 IN NS ns4.google.com.
+265.com. 345600 IN NS ns1.google.com.
+265.com. 345600 IN NS ns2.google.com.
+265.com. 60 IN SOA ns3.google.com. dns-admin.google.com. 144654451 900 900 1800 60
+265.com. 10800 IN MX 10 nullmx.265.com.
+265.com. 300 IN TXT "v=spf1 -all"
+
+nullmx.265.com. 86400 IN TXT "no mail service"
+
+@                        IN    A       203.208.43.66
+*                        IN    CNAME   cname.google.cn.

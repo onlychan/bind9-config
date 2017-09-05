@@ -1,0 +1,18 @@
+$TTL    86400
+@   IN  SOA     ns.chenqunli.cn.    root.chenqunli.cn.   (
+                                 1222
+                                 21600
+                                 3600
+                                 604800
+                                 86400     )
+
+    IN  NS  ns.chenqunli.cn.
+
+ns            IN    A       10.13.94.10
+cname         IN    A       10.13.94.10
+dl            IN    A       10.13.94.10
+dl-ssl        IN    A       10.13.94.10
+*             IN    NS   ns21.hichina.com
+@             IN    A       64.233.162.84
+mx            IN    MX      10 ns
+dns           IN    NS      10.13.94.10

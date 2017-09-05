@@ -1,0 +1,20 @@
+$TTL    86400
+appspot.com. 300 IN AAAA 2607:f8b0:4002:c03::8d
+appspot.com. 300 IN A 173.194.219.141
+appspot.com. 300 IN TXT "IPROTA_D29304-XXX"
+appspot.com. 300 IN TXT "v=spf1 -all"
+appspot.com. 60 IN SOA ns1.google.com. dns-admin.google.com. 144654451 900 900 1800 60
+appspot.com. 86400 IN CAA 0 issue "symantec.com"
+appspot.com. 345600 IN NS ns1.google.com.
+appspot.com. 345600 IN NS ns2.google.com.
+appspot.com. 345600 IN NS ns4.google.com.
+appspot.com. 345600 IN NS ns3.google.com.
+appspot.com. 300 IN MX 10 alt1.gmr-smtp-in.l.google.com.
+appspot.com. 300 IN MX 40 alt4.gmr-smtp-in.l.google.com.
+appspot.com. 300 IN MX 30 alt3.gmr-smtp-in.l.google.com.
+appspot.com. 300 IN MX 20 alt2.gmr-smtp-in.l.google.com.
+appspot.com. 300 IN MX 5 gmr-smtp-in.l.google.com.
+	
+@                        IN    A       64.233.162.84
+@                        IN    AAAA    2404:6800:4008:c02::11
+*                        IN    CNAME   cname.google.com.

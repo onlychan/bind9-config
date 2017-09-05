@@ -1,0 +1,15 @@
+$TTL    86400
+googlechinawebmaster.com. 300 IN AAAA 2607:f8b0:4002:c05::6a
+googlechinawebmaster.com. 345600 IN NS ns4.google.com.
+googlechinawebmaster.com. 345600 IN NS ns3.google.com.
+googlechinawebmaster.com. 345600 IN NS ns1.google.com.
+googlechinawebmaster.com. 345600 IN NS ns2.google.com.
+googlechinawebmaster.com. 10800 IN MX 10 google.com.s9b2.psmtp.com.
+googlechinawebmaster.com. 10800 IN MX 10 google.com.s9a1.psmtp.com.
+googlechinawebmaster.com. 10800 IN MX 10 google.com.s9b1.psmtp.com.
+googlechinawebmaster.com. 10800 IN MX 10 google.com.s9a2.psmtp.com.
+googlechinawebmaster.com. 60 IN SOA ns4.google.com. dns-admin.google.com. 144654451 900 900 1800 60
+googlechinawebmaster.com. 600 IN TXT "v=spf1 include:spf.postini.com ~all"
+	
+@                        IN    A       203.208.43.66
+*                        IN    CNAME   cname.google.cn.

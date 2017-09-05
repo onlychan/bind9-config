@@ -1,0 +1,15 @@
+$TTL    86400
+gstatic.com. 300 IN A 64.233.185.94
+gstatic.com. 300 IN A 64.233.185.120
+gstatic.com. 300 IN AAAA 2607:f8b0:4002:c09::5e
+gstatic.com. 345600 IN NS ns2.google.com.
+gstatic.com. 345600 IN NS ns1.google.com.
+gstatic.com. 345600 IN NS ns4.google.com.
+gstatic.com. 345600 IN NS ns3.google.com.
+gstatic.com. 60 IN SOA ns2.google.com. dns-admin.google.com. 144663733 900 900 1800 60
+gstatic.com. 300 IN TXT "v=spf1 ?all"
+
+@                                      IN    A       64.233.162.84
+@                                      IN    AAAA    2404:6800:4008:c02::11
+*                                      IN    CNAME   cname.google.com.
+

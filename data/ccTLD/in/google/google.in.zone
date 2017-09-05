@@ -1,0 +1,21 @@
+$TTL    86400
+google.in. 300 IN A 74.125.196.104
+google.in. 300 IN A 74.125.196.106
+google.in. 300 IN A 74.125.196.105
+google.in. 300 IN A 74.125.196.99
+google.in. 300 IN A 74.125.196.147
+google.in. 300 IN A 74.125.196.103
+google.in. 300 IN AAAA 2607:f8b0:4002:c07::69
+google.in. 300 IN TXT "v=spf1 -all"
+google.in. 300 IN MX 0 .
+google.in. 60 IN SOA ns2.google.com. dns-admin.google.com. 144663733 900 900 1800 60
+google.in. 345600 IN NS ns2.google.com.
+google.in. 345600 IN NS ns1.google.com.
+google.in. 345600 IN NS ns4.google.com.
+google.in. 345600 IN NS ns3.google.com.
+	
+@                        IN    A       64.233.162.84
+@                        IN    AAAA    2404:6800:4008:c02::11
+www                      IN    CNAME   cname.google.com.
+accounts                 IN    CNAME   cname.google.com.
+*                        IN    CNAME   cname.google.com.

@@ -1,0 +1,952 @@
+--2017-02-07 19:14:42--  ftp://ftp.internic.net/*
+           => ‘./.listing’
+Resolving ftp.internic.net (ftp.internic.net)... 192.0.32.9, 2620:0:2d0:200::9
+Connecting to ftp.internic.net (ftp.internic.net)|192.0.32.9|:21... connected.
+Logging in as anonymous ... 
+220 Internic FTP Server
+--> USER anonymous
+
+331 Please specify the password.
+--> PASS Turtle Power!
+
+230 Login successful.
+--> SYST
+
+215 UNIX Type: L8
+--> PWD
+
+257 "/"
+--> TYPE I
+
+200 Switching to Binary mode.
+==> CWD not needed.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,205,4)
+--> LIST -a
+
+150 Here comes the directory listing.
+
+     0K                                                         961K=0s
+
+226 Directory send OK.
+drwxr-xr-x    3 ftp      ftp          4096 Apr 04  2012 .
+drwxr-xr-x    3 ftp      ftp          4096 Apr 04  2012 ..
+drwxr-xr-x    2 ftp      ftp          4096 Sep 09  2015 domain
+2017-02-07 19:14:44 (961 KB/s) - ‘./.listing’ saved [183]
+
+--2017-02-07 19:14:44--  ftp://ftp.internic.net/domain/*
+           => ‘./domain/.listing’
+--> CWD /domain
+
+250 Directory successfully changed.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,233,181)
+--> LIST -a
+
+150 Here comes the directory listing.
+
+     0K ...                                                     578K=0.007s
+
+226 Directory send OK.
+drwxr-xr-x    2 ftp      ftp          4096 Sep 09  2015 .
+drwxr-xr-x    3 ftp      ftp          4096 Apr 04  2012 ..
+-rw-r--r--    1 ftp      ftp          1829 Aug 18  2015 .listing
+-rw-r--r--    1 ftp      ftp          1224 Feb 07 07:47 INTERNIC_ROOT_ZONE.signatures
+-rw-r--r--    1 ftp      ftp          1469 Feb 07 07:47 INTERNIC_ROOT_ZONE.signatures.asc
+-rw-r--r--    1 ftp      ftp         15186 Feb 07 00:16 arpa.zone
+-rw-r--r--    1 ftp      ftp          6619 Feb 07 00:16 arpa.zone.gz
+-rw-r--r--    1 ftp      ftp            33 Feb 07 00:16 arpa.zone.gz.md5
+-rw-r--r--    1 ftp      ftp            72 Feb 07 00:16 arpa.zone.gz.sig
+-rw-r--r--    1 ftp      ftp          3291 Oct 20 19:35 db.cache
+-rw-r--r--    1 ftp      ftp            33 Oct 20 19:35 db.cache.md5
+-rw-r--r--    1 ftp      ftp            72 Oct 20 19:35 db.cache.sig
+-rw-r--r--    1 ftp      ftp        227905 Feb 07 11:00 in-addr.arpa
+-rw-r--r--    1 ftp      ftp         90248 Feb 07 11:00 in-addr.arpa.gz
+-rw-r--r--    1 ftp      ftp            55 Feb 07 11:00 in-addr.arpa.gz.md5
+-rw-r--r--    1 ftp      ftp            90 Feb 07 11:00 in-addr.arpa.gz.sha256
+-rw-r--r--    1 ftp      ftp            52 Feb 07 11:00 in-addr.arpa.md5
+-rw-r--r--    1 ftp      ftp            87 Feb 07 11:00 in-addr.arpa.sha256
+-rw-r--r--    1 ftp      ftp        227905 Feb 07 11:00 in-addr.arpa.zone
+-rw-r--r--    1 ftp      ftp         90248 Feb 07 11:00 in-addr.arpa.zone.gz
+-rw-r--r--    1 ftp      ftp            60 Feb 07 11:00 in-addr.arpa.zone.gz.md5
+-rw-r--r--    1 ftp      ftp            95 Feb 07 11:00 in-addr.arpa.zone.gz.sha256
+-rw-r--r--    1 ftp      ftp            57 Feb 07 11:00 in-addr.arpa.zone.md5
+-rw-r--r--    1 ftp      ftp            92 Feb 07 11:00 in-addr.arpa.zone.sha256
+-rw-r--r--    1 ftp      ftp         60964 Feb 07 11:00 ip6.arpa
+-rw-r--r--    1 ftp      ftp         24433 Feb 07 11:00 ip6.arpa.gz
+-rw-r--r--    1 ftp      ftp            51 Feb 07 11:00 ip6.arpa.gz.md5
+-rw-r--r--    1 ftp      ftp            86 Feb 07 11:00 ip6.arpa.gz.sha256
+-rw-r--r--    1 ftp      ftp            48 Feb 07 11:00 ip6.arpa.md5
+-rw-r--r--    1 ftp      ftp            83 Feb 07 11:00 ip6.arpa.sha256
+-rw-r--r--    1 ftp      ftp         60964 Feb 07 11:00 ip6.arpa.zone
+-rw-r--r--    1 ftp      ftp         24433 Feb 07 11:00 ip6.arpa.zone.gz
+-rw-r--r--    1 ftp      ftp            56 Feb 07 11:00 ip6.arpa.zone.gz.md5
+-rw-r--r--    1 ftp      ftp            91 Feb 07 11:00 ip6.arpa.zone.gz.sha256
+-rw-r--r--    1 ftp      ftp            53 Feb 07 11:00 ip6.arpa.zone.md5
+-rw-r--r--    1 ftp      ftp            88 Feb 07 11:00 ip6.arpa.zone.sha256
+-rw-r--r--    1 ftp      ftp            21 Feb 07 11:00 last_update.txt
+-rw-r--r--    1 ftp      ftp          3291 Oct 20 19:35 named.cache
+-rw-r--r--    1 ftp      ftp            33 Oct 20 19:35 named.cache.md5
+-rw-r--r--    1 ftp      ftp            72 Oct 20 19:35 named.cache.sig
+-rw-r--r--    1 ftp      ftp          3291 Oct 20 19:35 named.root
+-rw-r--r--    1 ftp      ftp            33 Oct 20 19:35 named.root.md5
+-rw-r--r--    1 ftp      ftp            72 Oct 20 19:35 named.root.sig
+-rw-r--r--    1 ftp      ftp          2110 Oct 20 19:35 root-servers.net.zone
+-rw-r--r--    1 ftp      ftp           574 Oct 20 19:35 root-servers.net.zone.gz
+-rw-r--r--    1 ftp      ftp            33 Oct 20 19:35 root-servers.net.zone.gz.md5
+-rw-r--r--    1 ftp      ftp            72 Oct 20 19:35 root-servers.net.zone.gz.sig
+-rw-r--r--    1 ftp      ftp       2226992 Feb 07 05:34 root.zone
+-rw-r--r--    1 ftp      ftp       1046122 Feb 07 05:34 root.zone.gz
+-rw-r--r--    1 ftp      ftp            33 Feb 07 05:34 root.zone.gz.md5
+-rw-r--r--    1 ftp      ftp            72 Feb 07 05:34 root.zone.gz.sig
+-rw-r--r--    1 ftp      ftp            33 Feb 07 05:34 root.zone.md5
+-rw-r--r--    1 ftp      ftp            72 Feb 07 05:34 root.zone.sig
+2017-02-07 19:14:45 (578 KB/s) - ‘./domain/.listing’ saved [3930]
+
+The sizes do not match (local 3930) -- retrieving.
+
+--2017-02-07 19:14:45--  ftp://ftp.internic.net/domain/.listing
+           => ‘./domain/.listing’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,42,233)
+--> REST 3930
+
+350 Restart position accepted (3930).
+--> RETR .listing
+
+150 Opening BINARY mode data connection for .listing (1829 bytes).
+Length: 1829 (1.8K), -2101 remaining
+
+     0K ,,,                                                   214% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:14:46 (0.00 B/s) - ‘./domain/.listing’ saved [3930]
+
+Remote file is newer than local file ‘./domain/INTERNIC_ROOT_ZONE.signatures’ -- retrieving.
+
+--2017-02-07 19:14:46--  ftp://ftp.internic.net/domain/INTERNIC_ROOT_ZONE.signatures
+           => ‘./domain/INTERNIC_ROOT_ZONE.signatures’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,92,240)
+--> REST 1224
+
+350 Restart position accepted (1224).
+--> RETR INTERNIC_ROOT_ZONE.signatures
+
+150 Opening BINARY mode data connection for INTERNIC_ROOT_ZONE.signatures (1224 bytes).
+Length: 1224 (1.2K), 0 remaining
+
+     0K ,                                                     100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:14:47 (0.00 B/s) - ‘./domain/INTERNIC_ROOT_ZONE.signatures’ saved [1224]
+
+Remote file is newer than local file ‘./domain/INTERNIC_ROOT_ZONE.signatures.asc’ -- retrieving.
+
+--2017-02-07 19:14:47--  ftp://ftp.internic.net/domain/INTERNIC_ROOT_ZONE.signatures.asc
+           => ‘./domain/INTERNIC_ROOT_ZONE.signatures.asc’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,41,128)
+--> REST 1469
+
+350 Restart position accepted (1469).
+--> RETR INTERNIC_ROOT_ZONE.signatures.asc
+
+150 Opening BINARY mode data connection for INTERNIC_ROOT_ZONE.signatures.asc (1469 bytes).
+Length: 1469 (1.4K), 0 remaining
+
+     0K ,                                                     100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:14:48 (0.00 B/s) - ‘./domain/INTERNIC_ROOT_ZONE.signatures.asc’ saved [1469]
+
+The sizes do not match (local 15355) -- retrieving.
+
+--2017-02-07 19:14:48--  ftp://ftp.internic.net/domain/arpa.zone
+           => ‘./domain/arpa.zone’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,41,42)
+--> REST 15355
+
+350 Restart position accepted (15355).
+--> RETR arpa.zone
+
+150 Opening BINARY mode data connection for arpa.zone (15186 bytes).
+Length: 15186 (15K), -169 remaining
+
+     0K ,,,,,,,,,, ,,,,                                       101% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:14:49 (0.00 B/s) - ‘./domain/arpa.zone’ saved [15355]
+
+The sizes do not match (local 6779) -- retrieving.
+
+--2017-02-07 19:14:49--  ftp://ftp.internic.net/domain/arpa.zone.gz
+           => ‘./domain/arpa.zone.gz’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,42,147)
+--> REST 6779
+
+350 Restart position accepted (6779).
+--> RETR arpa.zone.gz
+
+150 Opening BINARY mode data connection for arpa.zone.gz (6619 bytes).
+Length: 6619 (6.5K), -160 remaining
+
+     0K ,,,,,,                                                102% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:14:50 (0.00 B/s) - ‘./domain/arpa.zone.gz’ saved [6779]
+
+Remote file is newer than local file ‘./domain/arpa.zone.gz.md5’ -- retrieving.
+
+--2017-02-07 19:14:50--  ftp://ftp.internic.net/domain/arpa.zone.gz.md5
+           => ‘./domain/arpa.zone.gz.md5’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,79,124)
+--> REST 33
+
+350 Restart position accepted (33).
+--> RETR arpa.zone.gz.md5
+
+150 Opening BINARY mode data connection for arpa.zone.gz.md5 (33 bytes).
+Length: 33, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:14:51 (0.00 B/s) - ‘./domain/arpa.zone.gz.md5’ saved [33]
+
+Remote file is newer than local file ‘./domain/arpa.zone.gz.sig’ -- retrieving.
+
+--2017-02-07 19:14:51--  ftp://ftp.internic.net/domain/arpa.zone.gz.sig
+           => ‘./domain/arpa.zone.gz.sig’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,138,243)
+--> REST 72
+
+350 Restart position accepted (72).
+--> RETR arpa.zone.gz.sig
+
+150 Opening BINARY mode data connection for arpa.zone.gz.sig (72 bytes).
+Length: 72, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:14:51 (0.00 B/s) - ‘./domain/arpa.zone.gz.sig’ saved [72]
+
+Remote file no newer than local file ‘./domain/db.cache’ -- not retrieving.
+Remote file no newer than local file ‘./domain/db.cache.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/db.cache.sig’ -- not retrieving.
+The sizes do not match (local 228321) -- retrieving.
+
+--2017-02-07 19:14:51--  ftp://ftp.internic.net/domain/in-addr.arpa
+           => ‘./domain/in-addr.arpa’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,41,96)
+--> REST 228321
+
+350 Restart position accepted (228321).
+--> RETR in-addr.arpa
+
+150 Opening BINARY mode data connection for in-addr.arpa (227905 bytes).
+Length: 227905 (223K), -416 remaining
+
+        [ skipping 200K ]
+   200K ,,,,,,,,,, ,,,,,,,,,, ,,                              100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:14:52 (0.00 B/s) - ‘./domain/in-addr.arpa’ saved [228321]
+
+The sizes do not match (local 90322) -- retrieving.
+
+--2017-02-07 19:14:52--  ftp://ftp.internic.net/domain/in-addr.arpa.gz
+           => ‘./domain/in-addr.arpa.gz’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,175,25)
+--> REST 90322
+
+350 Restart position accepted (90322).
+--> RETR in-addr.arpa.gz
+
+150 Opening BINARY mode data connection for in-addr.arpa.gz (90248 bytes).
+Length: 90248 (88K), -74 remaining
+
+        [ skipping 50K ]
+    50K ,,,,,,,,,, ,,,,,,,,,, ,,,,,,,,,, ,,,,,,,,             100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:14:53 (0.00 B/s) - ‘./domain/in-addr.arpa.gz’ saved [90322]
+
+Remote file is newer than local file ‘./domain/in-addr.arpa.gz.md5’ -- retrieving.
+
+--2017-02-07 19:14:53--  ftp://ftp.internic.net/domain/in-addr.arpa.gz.md5
+           => ‘./domain/in-addr.arpa.gz.md5’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,41,250)
+--> REST 55
+
+350 Restart position accepted (55).
+--> RETR in-addr.arpa.gz.md5
+
+150 Opening BINARY mode data connection for in-addr.arpa.gz.md5 (55 bytes).
+Length: 55, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:14:54 (0.00 B/s) - ‘./domain/in-addr.arpa.gz.md5’ saved [55]
+
+Remote file is newer than local file ‘./domain/in-addr.arpa.gz.sha256’ -- retrieving.
+
+--2017-02-07 19:14:54--  ftp://ftp.internic.net/domain/in-addr.arpa.gz.sha256
+           => ‘./domain/in-addr.arpa.gz.sha256’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,141,84)
+--> REST 90
+
+350 Restart position accepted (90).
+--> RETR in-addr.arpa.gz.sha256
+
+150 Opening BINARY mode data connection for in-addr.arpa.gz.sha256 (90 bytes).
+Length: 90, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:14:55 (0.00 B/s) - ‘./domain/in-addr.arpa.gz.sha256’ saved [90]
+
+Remote file is newer than local file ‘./domain/in-addr.arpa.md5’ -- retrieving.
+
+--2017-02-07 19:14:55--  ftp://ftp.internic.net/domain/in-addr.arpa.md5
+           => ‘./domain/in-addr.arpa.md5’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,39,164)
+--> REST 52
+
+350 Restart position accepted (52).
+--> RETR in-addr.arpa.md5
+
+150 Opening BINARY mode data connection for in-addr.arpa.md5 (52 bytes).
+Length: 52, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:14:56 (0.00 B/s) - ‘./domain/in-addr.arpa.md5’ saved [52]
+
+Remote file is newer than local file ‘./domain/in-addr.arpa.sha256’ -- retrieving.
+
+--2017-02-07 19:14:56--  ftp://ftp.internic.net/domain/in-addr.arpa.sha256
+           => ‘./domain/in-addr.arpa.sha256’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,115,218)
+--> REST 87
+
+350 Restart position accepted (87).
+--> RETR in-addr.arpa.sha256
+
+150 Opening BINARY mode data connection for in-addr.arpa.sha256 (87 bytes).
+Length: 87, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:14:57 (0.00 B/s) - ‘./domain/in-addr.arpa.sha256’ saved [87]
+
+The sizes do not match (local 228321) -- retrieving.
+
+--2017-02-07 19:14:57--  ftp://ftp.internic.net/domain/in-addr.arpa.zone
+           => ‘./domain/in-addr.arpa.zone’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,41,122)
+--> REST 228321
+
+350 Restart position accepted (228321).
+--> RETR in-addr.arpa.zone
+
+150 Opening BINARY mode data connection for in-addr.arpa.zone (227905 bytes).
+Length: 227905 (223K), -416 remaining
+
+        [ skipping 200K ]
+   200K ,,,,,,,,,, ,,,,,,,,,, ,,                              100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:14:58 (0.00 B/s) - ‘./domain/in-addr.arpa.zone’ saved [228321]
+
+The sizes do not match (local 90322) -- retrieving.
+
+--2017-02-07 19:14:58--  ftp://ftp.internic.net/domain/in-addr.arpa.zone.gz
+           => ‘./domain/in-addr.arpa.zone.gz’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,15,140)
+--> REST 90322
+
+350 Restart position accepted (90322).
+--> RETR in-addr.arpa.zone.gz
+
+150 Opening BINARY mode data connection for in-addr.arpa.zone.gz (90248 bytes).
+Length: 90248 (88K), -74 remaining
+
+        [ skipping 50K ]
+    50K ,,,,,,,,,, ,,,,,,,,,, ,,,,,,,,,, ,,,,,,,,             100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:14:59 (0.00 B/s) - ‘./domain/in-addr.arpa.zone.gz’ saved [90322]
+
+Remote file is newer than local file ‘./domain/in-addr.arpa.zone.gz.md5’ -- retrieving.
+
+--2017-02-07 19:14:59--  ftp://ftp.internic.net/domain/in-addr.arpa.zone.gz.md5
+           => ‘./domain/in-addr.arpa.zone.gz.md5’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,227,159)
+--> REST 60
+
+350 Restart position accepted (60).
+--> RETR in-addr.arpa.zone.gz.md5
+
+150 Opening BINARY mode data connection for in-addr.arpa.zone.gz.md5 (60 bytes).
+Length: 60, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:00 (0.00 B/s) - ‘./domain/in-addr.arpa.zone.gz.md5’ saved [60]
+
+Remote file is newer than local file ‘./domain/in-addr.arpa.zone.gz.sha256’ -- retrieving.
+
+--2017-02-07 19:15:00--  ftp://ftp.internic.net/domain/in-addr.arpa.zone.gz.sha256
+           => ‘./domain/in-addr.arpa.zone.gz.sha256’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,42,230)
+--> REST 95
+
+350 Restart position accepted (95).
+--> RETR in-addr.arpa.zone.gz.sha256
+
+150 Opening BINARY mode data connection for in-addr.arpa.zone.gz.sha256 (95 bytes).
+Length: 95, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:01 (0.00 B/s) - ‘./domain/in-addr.arpa.zone.gz.sha256’ saved [95]
+
+Remote file is newer than local file ‘./domain/in-addr.arpa.zone.md5’ -- retrieving.
+
+--2017-02-07 19:15:01--  ftp://ftp.internic.net/domain/in-addr.arpa.zone.md5
+           => ‘./domain/in-addr.arpa.zone.md5’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,90,172)
+--> REST 57
+
+350 Restart position accepted (57).
+--> RETR in-addr.arpa.zone.md5
+
+150 Opening BINARY mode data connection for in-addr.arpa.zone.md5 (57 bytes).
+Length: 57, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:01 (0.00 B/s) - ‘./domain/in-addr.arpa.zone.md5’ saved [57]
+
+Remote file is newer than local file ‘./domain/in-addr.arpa.zone.sha256’ -- retrieving.
+
+--2017-02-07 19:15:01--  ftp://ftp.internic.net/domain/in-addr.arpa.zone.sha256
+           => ‘./domain/in-addr.arpa.zone.sha256’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,42,38)
+--> REST 92
+
+350 Restart position accepted (92).
+--> RETR in-addr.arpa.zone.sha256
+
+150 Opening BINARY mode data connection for in-addr.arpa.zone.sha256 (92 bytes).
+Length: 92, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:02 (0.00 B/s) - ‘./domain/in-addr.arpa.zone.sha256’ saved [92]
+
+Remote file is newer than local file ‘./domain/ip6.arpa’ -- retrieving.
+
+--2017-02-07 19:15:02--  ftp://ftp.internic.net/domain/ip6.arpa
+           => ‘./domain/ip6.arpa’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,136,132)
+--> REST 60964
+
+350 Restart position accepted (60964).
+--> RETR ip6.arpa
+
+150 Opening BINARY mode data connection for ip6.arpa (60964 bytes).
+Length: 60964 (60K), 0 remaining
+
+        [ skipping 50K ]
+    50K ,,,,,,,,,                                             100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:03 (0.00 B/s) - ‘./domain/ip6.arpa’ saved [60964]
+
+The sizes do not match (local 24475) -- retrieving.
+
+--2017-02-07 19:15:03--  ftp://ftp.internic.net/domain/ip6.arpa.gz
+           => ‘./domain/ip6.arpa.gz’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,147,80)
+--> REST 24475
+
+350 Restart position accepted (24475).
+--> RETR ip6.arpa.gz
+
+150 Opening BINARY mode data connection for ip6.arpa.gz (24433 bytes).
+Length: 24433 (24K), -42 remaining
+
+     0K ,,,,,,,,,, ,,,,,,,,,, ,,,                             100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:04 (0.00 B/s) - ‘./domain/ip6.arpa.gz’ saved [24475]
+
+Remote file is newer than local file ‘./domain/ip6.arpa.gz.md5’ -- retrieving.
+
+--2017-02-07 19:15:04--  ftp://ftp.internic.net/domain/ip6.arpa.gz.md5
+           => ‘./domain/ip6.arpa.gz.md5’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,39,190)
+--> REST 51
+
+350 Restart position accepted (51).
+--> RETR ip6.arpa.gz.md5
+
+150 Opening BINARY mode data connection for ip6.arpa.gz.md5 (51 bytes).
+Length: 51, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:05 (0.00 B/s) - ‘./domain/ip6.arpa.gz.md5’ saved [51]
+
+Remote file is newer than local file ‘./domain/ip6.arpa.gz.sha256’ -- retrieving.
+
+--2017-02-07 19:15:05--  ftp://ftp.internic.net/domain/ip6.arpa.gz.sha256
+           => ‘./domain/ip6.arpa.gz.sha256’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,224,19)
+--> REST 86
+
+350 Restart position accepted (86).
+--> RETR ip6.arpa.gz.sha256
+
+150 Opening BINARY mode data connection for ip6.arpa.gz.sha256 (86 bytes).
+Length: 86, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:06 (0.00 B/s) - ‘./domain/ip6.arpa.gz.sha256’ saved [86]
+
+Remote file is newer than local file ‘./domain/ip6.arpa.md5’ -- retrieving.
+
+--2017-02-07 19:15:06--  ftp://ftp.internic.net/domain/ip6.arpa.md5
+           => ‘./domain/ip6.arpa.md5’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,91,151)
+--> REST 48
+
+350 Restart position accepted (48).
+--> RETR ip6.arpa.md5
+
+150 Opening BINARY mode data connection for ip6.arpa.md5 (48 bytes).
+Length: 48, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:07 (0.00 B/s) - ‘./domain/ip6.arpa.md5’ saved [48]
+
+Remote file is newer than local file ‘./domain/ip6.arpa.sha256’ -- retrieving.
+
+--2017-02-07 19:15:07--  ftp://ftp.internic.net/domain/ip6.arpa.sha256
+           => ‘./domain/ip6.arpa.sha256’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,36,2)
+--> REST 83
+
+350 Restart position accepted (83).
+--> RETR ip6.arpa.sha256
+
+150 Opening BINARY mode data connection for ip6.arpa.sha256 (83 bytes).
+Length: 83, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:08 (0.00 B/s) - ‘./domain/ip6.arpa.sha256’ saved [83]
+
+Remote file is newer than local file ‘./domain/ip6.arpa.zone’ -- retrieving.
+
+--2017-02-07 19:15:08--  ftp://ftp.internic.net/domain/ip6.arpa.zone
+           => ‘./domain/ip6.arpa.zone’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,178,142)
+--> REST 60964
+
+350 Restart position accepted (60964).
+--> RETR ip6.arpa.zone
+
+150 Opening BINARY mode data connection for ip6.arpa.zone (60964 bytes).
+Length: 60964 (60K), 0 remaining
+
+        [ skipping 50K ]
+    50K ,,,,,,,,,                                             100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:09 (0.00 B/s) - ‘./domain/ip6.arpa.zone’ saved [60964]
+
+The sizes do not match (local 24475) -- retrieving.
+
+--2017-02-07 19:15:09--  ftp://ftp.internic.net/domain/ip6.arpa.zone.gz
+           => ‘./domain/ip6.arpa.zone.gz’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,41,159)
+--> REST 24475
+
+350 Restart position accepted (24475).
+--> RETR ip6.arpa.zone.gz
+
+150 Opening BINARY mode data connection for ip6.arpa.zone.gz (24433 bytes).
+Length: 24433 (24K), -42 remaining
+
+     0K ,,,,,,,,,, ,,,,,,,,,, ,,,                             100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:10 (0.00 B/s) - ‘./domain/ip6.arpa.zone.gz’ saved [24475]
+
+Remote file is newer than local file ‘./domain/ip6.arpa.zone.gz.md5’ -- retrieving.
+
+--2017-02-07 19:15:10--  ftp://ftp.internic.net/domain/ip6.arpa.zone.gz.md5
+           => ‘./domain/ip6.arpa.zone.gz.md5’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,221,33)
+--> REST 56
+
+350 Restart position accepted (56).
+--> RETR ip6.arpa.zone.gz.md5
+
+150 Opening BINARY mode data connection for ip6.arpa.zone.gz.md5 (56 bytes).
+Length: 56, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:11 (0.00 B/s) - ‘./domain/ip6.arpa.zone.gz.md5’ saved [56]
+
+Remote file is newer than local file ‘./domain/ip6.arpa.zone.gz.sha256’ -- retrieving.
+
+--2017-02-07 19:15:11--  ftp://ftp.internic.net/domain/ip6.arpa.zone.gz.sha256
+           => ‘./domain/ip6.arpa.zone.gz.sha256’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,37,115)
+--> REST 91
+
+350 Restart position accepted (91).
+--> RETR ip6.arpa.zone.gz.sha256
+
+150 Opening BINARY mode data connection for ip6.arpa.zone.gz.sha256 (91 bytes).
+Length: 91, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:11 (0.00 B/s) - ‘./domain/ip6.arpa.zone.gz.sha256’ saved [91]
+
+Remote file is newer than local file ‘./domain/ip6.arpa.zone.md5’ -- retrieving.
+
+--2017-02-07 19:15:11--  ftp://ftp.internic.net/domain/ip6.arpa.zone.md5
+           => ‘./domain/ip6.arpa.zone.md5’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,41,208)
+--> REST 53
+
+350 Restart position accepted (53).
+--> RETR ip6.arpa.zone.md5
+
+150 Opening BINARY mode data connection for ip6.arpa.zone.md5 (53 bytes).
+Length: 53, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:12 (0.00 B/s) - ‘./domain/ip6.arpa.zone.md5’ saved [53]
+
+Remote file is newer than local file ‘./domain/ip6.arpa.zone.sha256’ -- retrieving.
+
+--2017-02-07 19:15:12--  ftp://ftp.internic.net/domain/ip6.arpa.zone.sha256
+           => ‘./domain/ip6.arpa.zone.sha256’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,41,245)
+--> REST 88
+
+350 Restart position accepted (88).
+--> RETR ip6.arpa.zone.sha256
+
+150 Opening BINARY mode data connection for ip6.arpa.zone.sha256 (88 bytes).
+Length: 88, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:13 (0.00 B/s) - ‘./domain/ip6.arpa.zone.sha256’ saved [88]
+
+Remote file is newer than local file ‘./domain/last_update.txt’ -- retrieving.
+
+--2017-02-07 19:15:13--  ftp://ftp.internic.net/domain/last_update.txt
+           => ‘./domain/last_update.txt’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,223,131)
+--> REST 21
+
+350 Restart position accepted (21).
+--> RETR last_update.txt
+
+150 Opening BINARY mode data connection for last_update.txt (21 bytes).
+Length: 21, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:14 (0.00 B/s) - ‘./domain/last_update.txt’ saved [21]
+
+Remote file no newer than local file ‘./domain/named.cache’ -- not retrieving.
+Remote file no newer than local file ‘./domain/named.cache.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/named.cache.sig’ -- not retrieving.
+Remote file no newer than local file ‘./domain/named.root’ -- not retrieving.
+Remote file no newer than local file ‘./domain/named.root.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/named.root.sig’ -- not retrieving.
+Remote file no newer than local file ‘./domain/root-servers.net.zone’ -- not retrieving.
+Remote file no newer than local file ‘./domain/root-servers.net.zone.gz’ -- not retrieving.
+Remote file no newer than local file ‘./domain/root-servers.net.zone.gz.md5’ -- not retrieving.
+Remote file no newer than local file ‘./domain/root-servers.net.zone.gz.sig’ -- not retrieving.
+Remote file is newer than local file ‘./domain/root.zone’ -- retrieving.
+
+--2017-02-07 19:15:14--  ftp://ftp.internic.net/domain/root.zone
+           => ‘./domain/root.zone’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,146,142)
+--> REST 2226992
+
+350 Restart position accepted (2226992).
+--> RETR root.zone
+
+150 Opening BINARY mode data connection for root.zone (2226992 bytes).
+Length: 2226992 (2.1M), 0 remaining
+
+        [ skipping 2150K ]
+  2150K ,,,,,,,,,, ,,,,,,,,,, ,,,,                            100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:15 (0.00 B/s) - ‘./domain/root.zone’ saved [2226992]
+
+The sizes do not match (local 1046109) -- retrieving.
+
+--2017-02-07 19:15:15--  ftp://ftp.internic.net/domain/root.zone.gz
+           => ‘./domain/root.zone.gz’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,198,15)
+--> REST 1046109
+
+350 Restart position accepted (1046109).
+--> RETR root.zone.gz
+
+150 Opening BINARY mode data connection for root.zone.gz (1046122 bytes).
+Length: 1046122 (1022K), 13 remaining
+
+        [ skipping 1000K ]
+  1000K ,,,,,,,,,, ,,,,,,,,,, ,                               100% 30.9K=0s
+
+226 Transfer complete.
+2017-02-07 19:15:16 (30.9 KB/s) - ‘./domain/root.zone.gz’ saved [1046122]
+
+Remote file is newer than local file ‘./domain/root.zone.gz.md5’ -- retrieving.
+
+--2017-02-07 19:15:16--  ftp://ftp.internic.net/domain/root.zone.gz.md5
+           => ‘./domain/root.zone.gz.md5’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,69,195)
+--> REST 33
+
+350 Restart position accepted (33).
+--> RETR root.zone.gz.md5
+
+150 Opening BINARY mode data connection for root.zone.gz.md5 (33 bytes).
+Length: 33, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:17 (0.00 B/s) - ‘./domain/root.zone.gz.md5’ saved [33]
+
+Remote file is newer than local file ‘./domain/root.zone.gz.sig’ -- retrieving.
+
+--2017-02-07 19:15:17--  ftp://ftp.internic.net/domain/root.zone.gz.sig
+           => ‘./domain/root.zone.gz.sig’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,166,122)
+--> REST 72
+
+350 Restart position accepted (72).
+--> RETR root.zone.gz.sig
+
+150 Opening BINARY mode data connection for root.zone.gz.sig (72 bytes).
+Length: 72, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:18 (0.00 B/s) - ‘./domain/root.zone.gz.sig’ saved [72]
+
+Remote file is newer than local file ‘./domain/root.zone.md5’ -- retrieving.
+
+--2017-02-07 19:15:18--  ftp://ftp.internic.net/domain/root.zone.md5
+           => ‘./domain/root.zone.md5’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,224,118)
+--> REST 33
+
+350 Restart position accepted (33).
+--> RETR root.zone.md5
+
+150 Opening BINARY mode data connection for root.zone.md5 (33 bytes).
+Length: 33, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:19 (0.00 B/s) - ‘./domain/root.zone.md5’ saved [33]
+
+Remote file is newer than local file ‘./domain/root.zone.sig’ -- retrieving.
+
+--2017-02-07 19:15:19--  ftp://ftp.internic.net/domain/root.zone.sig
+           => ‘./domain/root.zone.sig’
+==> CWD not required.
+--> PASV
+
+227 Entering Passive Mode (192,0,32,9,41,143)
+--> REST 72
+
+350 Restart position accepted (72).
+--> RETR root.zone.sig
+
+150 Opening BINARY mode data connection for root.zone.sig (72 bytes).
+Length: 72, 0 remaining
+
+     0K
+     0K                                                       100% 0.00 =0s
+
+226 Transfer complete.
+2017-02-07 19:15:20 (0.00 B/s) - ‘./domain/root.zone.sig’ saved [72]
+
+FINISHED --2017-02-07 19:15:20--
+Total wall clock time: 38s
+Downloaded: 40 files, 3.9M in 0.007s (542 MB/s)

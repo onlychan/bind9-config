@@ -1,0 +1,5 @@
+--2017-01-19 00:00:06--  ftp://ftp.internic.net/*
+           => ‘./.listing’
+Resolving ftp.internic.net (ftp.internic.net)... 192.0.32.9, 2620:0:2d0:200::9
+Connecting to ftp.internic.net (ftp.internic.net)|192.0.32.9|:21... failed: Resource temporarily unavailable.
+Connecting to ftp.internic.net (ftp.internic.net)|2620:0:2d0:200::9|:21... failed: Network is unreachable.
